@@ -1,5 +1,8 @@
 {
   "all": {
+     "e": {
+      "main": { "$": "auto_text_key", "code":  601, "label": "ə" }
+    },
     "a": {
       "main": { "$": "auto_text_key", "code":  226, "label": "â" }
     },
@@ -70,9 +73,9 @@
     "~right": {
       "main": { "code": -255, "label": ".com" },
       "relevant": [
-        { "code": -255, "label": ".gov.tr" },
+        { "code": -255, "label": ".gov" },
         { "code": -255, "label": ".org" },
-        { "code": -255, "label": ".edu.tr" },
+        { "code": -255, "label": ".edu" },
         { "code": -255, "label": ".com.tr" },
         { "code": -255, "label": ".net" }
       ]
