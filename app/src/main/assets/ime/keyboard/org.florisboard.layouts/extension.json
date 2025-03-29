@@ -39,8 +39,8 @@
       },
       {
         "id": "turkla",
-        "label": "TurkLatin",
-        "authors": [ "nijatismayilzada" ],
+        "label": "Türkcə",
+        "authors": [ "TurkLatin" ],
         "direction": "ltr"
       },
       {
@@ -307,8 +307,8 @@
       },
       {
         "id": "turkar",
-        "label": "TurkArab",
-        "authors": [ "PHELAT" ],
+        "label": "تۆرکجه",
+        "authors": [ "TurkArab" ],
         "direction": "rtl",
         "modifier": "org.florisboard.layouts:turkar"
       },
@@ -542,8 +542,8 @@
       },
         {
         "id": "turkar",
-        "label": "TurkArab",
-        "authors": [ "PHELAT" ],
+        "label": "تۆرکجه",
+        "authors": [ "TurkArab" ],
         "direction": "rtl"
       },
       {
@@ -670,8 +670,8 @@
       },
       {
         "id": "turkar",
-        "label": "TurkArab",
-        "authors": [ "patrickgold" ],
+        "label": "تۆرکجه",
+        "authors": [ "TurkArab" ],
         "direction": "ltr"
       },
       {
@@ -763,8 +763,8 @@
       },
        {
         "id": "turkar",
-        "label": "TurkArab",
-        "authors": [ "patrickgold" ],
+        "label": "تۆرکجه",
+        "authors": [ "TurkArab" ],
         "direction": "ltr"
       },
       {
@@ -840,8 +840,8 @@
       },
       {
         "id": "turkar",
-        "label": "TurkArab",
-        "authors": [ "patrickgold" ],
+        "label": "تۆرکجه",
+        "authors": [ "TurkArab" ],
         "direction": "ltr"
       },
       {
