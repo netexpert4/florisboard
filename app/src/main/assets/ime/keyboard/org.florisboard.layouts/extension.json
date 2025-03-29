@@ -44,6 +44,12 @@
         "direction": "ltr"
       },
       {
+        "id": "turken",
+        "label": "Türkcə English",
+        "authors": [ "TurkEnglish" ],
+        "direction": "ltr"
+      },
+      {
         "id": "azerty",
         "label": "AZERTY",
         "authors": [ "patrickgold" ],
