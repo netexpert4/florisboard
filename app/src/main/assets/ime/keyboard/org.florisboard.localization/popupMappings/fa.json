@@ -1,7 +1,6 @@
 {
   "all": {
     "ی": {
-      "main": { "code": 1597, "label": "ؽ" },
       "relevant": [
         { "code": 1574, "label": "ئ" },
         { "code": 1610, "label": "ي" },
@@ -31,32 +30,18 @@
     },
     "ک": {
       "relevant": [
-        { "code": 1706, "label": "ڪ"},
-        { "code": 1603, "label": "ك" }
-    ]
+        { "code": 1603, "label": "ك" },
+        { "code": 1706, "label": "ڪ"}
+      ]
     },
     "ز": {
       "relevant": [
         { "code": 1688, "label": "ژ" }
       ]
     },
-    "ئ": {
-      "relevant": [
-        { "code": 1597, "label": "ؽ" }
-      ]
-    },
-    "ؤ": {
-      "main": { "code": 1734, "label": "ۆ" },
-      "relevant": [
-       { "code": 1735, "label": "ۇ" },
-       { "code": -255, "label": "وْ" }
-       ]
-    },
     "و": {
-      "main": { "code": 1734, "label": "ۆ" },
       "relevant": [
-       { "code": 1735, "label": "ۇ" },
-       { "code": -255, "label": "وْ" }
+        { "code": 1572, "label": "ؤ" }
       ]
     },
     "~right": {
