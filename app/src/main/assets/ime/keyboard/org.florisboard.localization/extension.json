@@ -326,7 +326,7 @@
         "characters": "org.florisboard.layouts:persian",
         "symbols": "org.florisboard.layouts:persian",
         "symbols2": "org.florisboard.layouts:persian",
-        "numericRow": "org.florisboard.layouts:persian"
+        "numericRow": "org.florisboard.layouts:western_arabic"
       }
     },
     {
