@@ -74,6 +74,7 @@
     { "id": "sk", "authors": [ "stefan-misik", "majso" ] },
     { "id": "sr", "authors": [ "hedidnothingwrong", "GrbavaCigla" ] },
     { "id": "sv", "authors": [ "patrickgold" ] },
+    { "id": "tre", "authors": [ "TurkEnglish" ] },
     { "id": "trl", "authors": [ "Turklatin" ] },
     { "id": "tr", "authors": [ "kisekinopureya", "patrickgold", "dvrnynr" ] },
     { "id": "udm", "authors": [ "vorgoron" ] },
@@ -392,9 +393,9 @@
       "languageTag": "tr",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.florisboard.currencysets:dollar",
-      "popupMapping": "org.florisboard.localization:trl",
+      "popupMapping": "org.florisboard.localization:tre",
       "preferred": {
-        "characters": "org.florisboard.layouts:qwerty"
+        "characters": "org.florisboard.layouts:turken"
       }
     },
     {
