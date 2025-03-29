@@ -2,6 +2,7 @@
   "all": {
     "ی": {
       "relevant": [
+        { "code": 1597, "label": "ؽ" },
         { "code": 1574, "label": "ئ" },
         { "code": 1610, "label": "ي" },
         { "code": 1746, "label": "ے" }
@@ -39,9 +40,24 @@
         { "code": 1688, "label": "ژ" }
       ]
     },
+    "ئ": {
+      "relevant": [
+        { "code": 1597, "label": "ؽ" }
+      ]
+    },
+    "ؤ": {
+      "relevant": [
+       { "code": 1734, "label": "ۆ" },
+       { "code": -255, "label": "وْ" },
+       { "code": 1735, "label": "ۇ" }
+       ]
+    },
     "و": {
       "relevant": [
-        { "code": 1572, "label": "ؤ" }
+       { "code": 1734, "label": "ۆ" },
+       { "code": -255, "label": "وْ" },
+       { "code": 1735, "label": "ؤ" },
+       { "code": 1572, "label": "ؤ" }
       ]
     },
     "~right": {
