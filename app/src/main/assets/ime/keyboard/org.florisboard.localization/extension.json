@@ -318,6 +318,18 @@
       }
     },
     {
+      "languageTag": "az",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.florisboard.currencysets:rial",
+      "popupMapping": "org.florisboard.localization:az",
+      "preferred": {
+        "characters": "org.florisboard.layouts:turkar",
+        "symbols": "org.florisboard.layouts:turkar",
+        "symbols2": "org.florisboard.layouts:turkar",
+        "numericRow": "org.florisboard.layouts:turkar"
+      }
+    },
+    {
       "languageTag": "fa-FA",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.florisboard.currencysets:rial",
@@ -372,6 +384,15 @@
       "popupMapping": "org.florisboard.localization:tr",
       "preferred": {
         "characters": "org.florisboard.layouts:azerbaijani"
+      }
+    },
+    {
+      "languageTag": "az",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.florisboard.currencysets:azerbaijani_manat",
+      "popupMapping": "org.florisboard.localization:tr",
+      "preferred": {
+        "characters": "org.florisboard.layouts:turkla"
       }
     },
     {
