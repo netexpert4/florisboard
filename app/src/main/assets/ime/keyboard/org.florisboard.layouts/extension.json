@@ -38,8 +38,8 @@
         "direction": "ltr"
       },
       {
-        "id": "azerbaijani_turkish_latin",
-        "label": "Azerbaijani Turkish Latin",
+        "id": "turkla",
+        "label": "TurkLatin",
         "authors": [ "nijatismayilzada" ],
         "direction": "ltr"
       },
