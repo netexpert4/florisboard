@@ -1,7 +1,7 @@
 [
   [
     { "$": "auto_text_key", "code":  113, "label": "q" },
-    { "$": "auto_text_key", "code":  252, "label": "ü" },
+    { "$": "auto_text_key", "code":  119, "label": "w" },
     { "$": "auto_text_key", "code":  101, "label": "e" },
     { "$": "auto_text_key", "code":  114, "label": "r" },
     { "$": "auto_text_key", "code":  116, "label": "t" },
@@ -30,6 +30,7 @@
       "lower": { "code":  305, "label": "ı" },
       "upper": { "code":   73, "label": "I" }
     },
+    { "$": "auto_text_key", "code":  252, "label": "ü" },
     { "$": "auto_text_key", "code":  601, "label": "ə" }
   ],
   [
