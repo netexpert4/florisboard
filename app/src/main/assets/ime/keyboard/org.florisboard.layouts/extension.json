@@ -38,6 +38,12 @@
         "direction": "ltr"
       },
       {
+        "id": "azerbaijani_turkish_latin",
+        "label": "Azerbaijani Turkish Latin",
+        "authors": [ "nijatismayilzada" ],
+        "direction": "ltr"
+      },
+      {
         "id": "azerty",
         "label": "AZERTY",
         "authors": [ "patrickgold" ],
@@ -300,6 +306,13 @@
         "direction": "ltr"
       },
       {
+        "id": "turkar",
+        "label": "TurkArab",
+        "authors": [ "PHELAT" ],
+        "direction": "rtl",
+        "modifier": "org.florisboard.layouts:turkar"
+      },
+      {
         "id": "persian",
         "label": "Persian",
         "authors": [ "PHELAT" ],
@@ -526,6 +539,12 @@
         "label": "Neo2",
         "authors": [ "ostrya" ],
         "direction": "ltr"
+      },
+        {
+        "id": "turkar",
+        "label": "TurkArab",
+        "authors": [ "PHELAT" ],
+        "direction": "rtl"
       },
       {
         "id": "persian",
@@ -805,6 +824,12 @@
         "id": "ipa",
         "label": "International Phonetic Alphabet",
         "authors": [ "Huy-Ngo" ],
+        "direction": "ltr"
+      },
+      {
+        "id": "turkar",
+        "label": "TurkArab",
+        "authors": [ "patrickgold" ],
         "direction": "ltr"
       },
       {
