@@ -319,11 +319,11 @@
         "modifier": "org.florisboard.layouts:turkar"
       },
       {
-        "id": "turkar2",
+        "id": "turkara",
         "label": "تۆرکجه",
-        "authors": [ "TurkArab2" ],
+        "authors": [ "TurkArab" ],
         "direction": "rtl",
-        "modifier": "org.florisboard.layouts:turkar2"
+        "modifier": "org.florisboard.layouts:turkara"
       },
       {
         "id": "persian",
@@ -560,9 +560,9 @@
         "direction": "rtl"
       },
        {
-        "id": "turkar2",
+        "id": "turkara",
         "label": "تۆرکجه",
-        "authors": [ "TurkArab2" ],
+        "authors": [ "TurkArab" ],
         "direction": "rtl"
       },
       {
@@ -694,9 +694,9 @@
         "direction": "ltr"
       },
        {
-        "id": "turkar2",
+        "id": "turkara",
         "label": "تۆرکجه",
-        "authors": [ "TurkArab2" ],
+        "authors": [ "TurkArab" ],
         "direction": "ltr"
       },
       {
@@ -876,9 +876,9 @@
         "direction": "ltr"
       },
       {
-        "id": "turkar2",
+        "id": "turkara",
         "label": "تۆرکجه",
-        "authors": [ "TurkArab2" ],
+        "authors": [ "TurkArab" ],
         "direction": "ltr"
       },
       {
