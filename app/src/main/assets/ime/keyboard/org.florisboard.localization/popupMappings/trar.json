@@ -51,10 +51,12 @@
       ]
     },
     "ؤ": {
+      "relevant": [
        { "code": -255, "label": "وْ" }
       ]
     },
     "ۆ": {
+      "relevant": [
        { "code": 1735, "label": "ۇ" }
       ]
     },
