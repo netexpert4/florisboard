@@ -43,6 +43,7 @@
     { "id": "es", "authors": [ "patrickgold" ] },
     { "id": "et", "authors": [ "OneSheepy" ] },
     { "id": "tra", "authors": [ "TurkArab" ] },
+    { "id": "tra2", "authors": [ "TurkArab2" ] },
     { "id": "fa", "authors": [ "PHELAT" ] },
     { "id": "fa2", "authors": [ "M-Koushan" ] },
     { "id": "fa3", "authors": [ "SaeID-Rz" ] },
@@ -330,6 +331,18 @@
         "symbols": "org.florisboard.layouts:turkar",
         "symbols2": "org.florisboard.layouts:turkar",
         "numericRow": "org.florisboard.layouts:turkar"
+      }
+    },
+    {
+      "languageTag": "tr",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.florisboard.currencysets:rial",
+      "popupMapping": "org.florisboard.localization:tra2",
+      "preferred": {
+        "characters": "org.florisboard.layouts:turkar2",
+        "symbols": "org.florisboard.layouts:turkar2",
+        "symbols2": "org.florisboard.layouts:turkar2",
+        "numericRow": "org.florisboard.layouts:turkar2"
       }
     },
     {
