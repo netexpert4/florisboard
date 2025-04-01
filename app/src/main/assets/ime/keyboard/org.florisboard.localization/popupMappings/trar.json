@@ -51,17 +51,17 @@
       ]
     },
     "ؤ": {
-       { "code": -255, "label": "وْ" },
+       { "code": -255, "label": "وْ" }
       ]
     },
     "ۆ": {
-       { "code": 1735, "label": "ۇ" },
+       { "code": 1735, "label": "ۇ" }
       ]
     },
     "و": {
       "main": { "code": -255, "label": "وْ" },
       "relevant": [
-       { "code": 1735, "label": "ۇ" },
+       { "code": 1735, "label": "ۇ" }
        ]
     },
     "~right": {
