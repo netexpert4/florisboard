@@ -319,6 +319,13 @@
         "modifier": "org.florisboard.layouts:turkar"
       },
       {
+        "id": "turkar2",
+        "label": "تۆرکجه",
+        "authors": [ "TurkArab2" ],
+        "direction": "rtl",
+        "modifier": "org.florisboard.layouts:turkar2"
+      },
+      {
         "id": "persian",
         "label": "Persian",
         "authors": [ "PHELAT" ],
@@ -552,6 +559,12 @@
         "authors": [ "TurkArab" ],
         "direction": "rtl"
       },
+       {
+        "id": "turkar2",
+        "label": "تۆرکجه",
+        "authors": [ "TurkArab2" ],
+        "direction": "rtl"
+      },
       {
         "id": "persian",
         "label": "Persian",
@@ -680,6 +693,12 @@
         "authors": [ "TurkArab" ],
         "direction": "ltr"
       },
+       {
+        "id": "turkar2",
+        "label": "تۆرکجه",
+        "authors": [ "TurkArab2" ],
+        "direction": "ltr"
+      },
       {
         "id": "persian",
         "label": "Persian",
@@ -773,6 +792,12 @@
         "authors": [ "TurkArab" ],
         "direction": "ltr"
       },
+        {
+        "id": "turkar2",
+        "label": "تۆرکجه",
+        "authors": [ "TurkArab2" ],
+        "direction": "ltr"
+      },
       {
         "id": "persian",
         "label": "Persian",
@@ -848,6 +873,12 @@
         "id": "turkar",
         "label": "تۆرکجه",
         "authors": [ "TurkArab" ],
+        "direction": "ltr"
+      },
+      {
+        "id": "turkar2",
+        "label": "تۆرکجه",
+        "authors": [ "TurkArab2" ],
         "direction": "ltr"
       },
       {
