@@ -95,7 +95,7 @@
         { "code":   58, "label": ":" },
         { "code":   39, "label": "'" },
         { "code":   64, "label": "@" },
-        { "code":   44, "label": "," }
+        { "code":   44, "label": "," },
         { "code": 1563, "label": "؛" },
         { "code":   47, "label": "/" },
         { "$": "layout_direction_selector",
