@@ -83,8 +83,7 @@
         { "code": 1613, "label": "ٍ" },
         { "code": 1620, "label": "ٔ" }
       ]
-    }
-  },
+   },
       "~right": {
       "main": { "code":   34, "label": "\"" },
       "relevant": [
