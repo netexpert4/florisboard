@@ -36,7 +36,7 @@
     { "code":  1584, "label": "ذ" },
     { "code":  1583, "label": "د" },
     { "code":  1574, "label": "ئ" },
-    { "code":  1572, "label": "ؤ" },
-    { "code":  1608, "label": "و" }
+    { "code":  1608, "label": "و" },
+    { "code":  1572, "label": "ؤ" }
   ]
 ]
