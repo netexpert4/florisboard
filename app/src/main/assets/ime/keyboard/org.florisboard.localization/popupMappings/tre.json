@@ -1,5 +1,8 @@
 {
   "all": {
+    "?": {
+      "main": { "$": "auto_text_key", "code":   58, "label": ":" }
+    },
      "e": {
       "main": { "$": "auto_text_key", "code":  601, "label": "ə" }
     },
