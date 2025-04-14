@@ -26,8 +26,8 @@
   [
     { "code":  1592, "label": "ظ" },
     { "code":  1591, "label": "ط" },
-    { "code":  1586, "label": "ز" },
     { "code":  1688, "label": "ژ" },
+    { "code":  1586, "label": "ز" },
     { "code":  1585, "label": "ر" },
     { "code":  1584, "label": "ذ" },
     { "code":  1583, "label": "د" },
