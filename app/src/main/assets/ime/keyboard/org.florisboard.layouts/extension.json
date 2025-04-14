@@ -320,21 +320,21 @@
       },
       {
         "id": "turkara",
-        "label": "تۆرکجه",
+        "label": "1 تۆرکجه",
         "authors": [ "TurkArab" ],
         "direction": "rtl",
         "modifier": "org.florisboard.layouts:turkara"
       },
        {
         "id": "turkara2",
-        "label": "تۆرکجه",
+        "label": "2 تۆرکجه",
         "authors": [ "TurkArab" ],
         "direction": "rtl",
         "modifier": "org.florisboard.layouts:turkara2"
       },
        {
         "id": "turkara3",
-        "label": "تۆرکجه",
+        "label": "3 تۆرکجه",
         "authors": [ "TurkArab" ],
         "direction": "rtl",
         "modifier": "org.florisboard.layouts:turkara3"
@@ -575,7 +575,19 @@
       },
        {
         "id": "turkara",
-        "label": "تۆرکجه",
+        "label": "1 تۆرکجه",
+        "authors": [ "TurkArab" ],
+        "direction": "rtl"
+      },
+        {
+        "id": "turkara2",
+        "label": "2 تۆرکجه",
+        "authors": [ "TurkArab" ],
+        "direction": "rtl"
+      },
+        {
+        "id": "turkara3",
+        "label": "3 تۆرکجه",
         "authors": [ "TurkArab" ],
         "direction": "rtl"
       },
@@ -709,7 +721,19 @@
       },
        {
         "id": "turkara",
-        "label": "تۆرکجه",
+        "label": "1 تۆرکجه",
+        "authors": [ "TurkArab" ],
+        "direction": "ltr"
+      },
+       {
+        "id": "turkara2",
+        "label": "2 تۆرکجه",
+        "authors": [ "TurkArab" ],
+        "direction": "ltr"
+      },
+       {
+        "id": "turkara3",
+        "label": "3 تۆرکجه",
         "authors": [ "TurkArab" ],
         "direction": "ltr"
       },
@@ -808,7 +832,19 @@
       },
         {
         "id": "turkara",
-        "label": "تۆرکجه",
+        "label": "1 تۆرکجه",
+        "authors": [ "TurkArab" ],
+        "direction": "ltr"
+      },
+       {
+        "id": "turkara2",
+        "label": "2 تۆرکجه",
+        "authors": [ "TurkArab" ],
+        "direction": "ltr"
+      },
+       {
+        "id": "turkara3",
+        "label": "3 تۆرکجه",
         "authors": [ "TurkArab" ],
         "direction": "ltr"
       },
@@ -891,7 +927,19 @@
       },
       {
         "id": "turkara",
-        "label": "تۆرکجه",
+        "label": "1 تۆرکجه",
+        "authors": [ "TurkArab" ],
+        "direction": "ltr"
+      },
+      {
+        "id": "turkara2",
+        "label": "2 تۆرکجه",
+        "authors": [ "TurkArab" ],
+        "direction": "ltr"
+      },
+      {
+        "id": "turkara3",
+        "label": "3 تۆرکجه",
         "authors": [ "TurkArab" ],
         "direction": "ltr"
       },
