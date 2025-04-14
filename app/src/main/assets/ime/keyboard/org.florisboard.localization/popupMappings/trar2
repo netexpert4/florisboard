@@ -35,12 +35,18 @@
         { "code": 1590, "label": "ض"}
       ]
     }, 
+     "ب": {
+      "relevant": [
+        { "code":  1662, "label": "پ" }
+      ]
+    },
      "ق": {
       "relevant": [
         { "code": 1579, "label": "ث"}
       ]
     },
     "ک": {
+      "main": { "code":  1711, "label": "گ" },
       "relevant": [
         { "code": 1706, "label": "ڪ"},
         { "code": 1603, "label": "ك" }
@@ -56,30 +62,28 @@
         { "code": 1688, "label": "ژ" }
       ]
     },
+"د": {
+      "relevant": [
+        { "code":  1584, "label": "ذ" }
+      ]
+    },
     "ئ": {
       "relevant": [
         { "code": 1597, "label": "ؽ" }
       ]
     },
-    "ؽ": {
+   "ؤ": {
+      "main": { "code":  1734, "label": "ۆ" },
       "relevant": [
-        { "code": 1574, "label": "ئ" }
-      ]
-    },
-    "ؤ": {
-      "relevant": [
-       { "code": -255, "label": "وْ" }
-      ]
-    },
-    "ۆ": {
-      "relevant": [
+       { "code": -255, "label": "وْ" },
        { "code": 1735, "label": "ۇ" }
       ]
     },
     "و": {
       "main": { "code": -255, "label": "وْ" },
       "relevant": [
-       { "code": 1735, "label": "ۇ" }
+       { "code": 1735, "label": "ۇ" },
+       { "code": 1734, "label": "ۆ" }
        ]
     },
     "half_space": {
