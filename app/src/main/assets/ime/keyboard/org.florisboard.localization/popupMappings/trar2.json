@@ -1,9 +1,9 @@
 {
   "all": {
     "ی": {
-      "main": { "code": 1574, "label": "ئ" },
+      "main": { "code": 1597, "label": "ؽ" },
       "relevant": [
-        { "code": 1597, "label": "ؽ" },
+        { "code": 1574, "label": "ئ" },
         { "code": 1610, "label": "ي" },
         { "code": 1746, "label": "ے" }
       ]
@@ -28,6 +28,11 @@
       "main": { "code": 1579, "label": "ث"},
       "relevant": [
         { "code": 1577, "label": "ة" }
+      ]
+    },
+    "س": {
+      "relevant": [
+        { "code": 1579, "label": "ث"}
       ]
     },
       "ص": {
