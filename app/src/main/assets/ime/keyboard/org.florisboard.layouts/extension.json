@@ -44,6 +44,12 @@
         "direction": "ltr"
       },
       {
+        "id": "turkla2",
+        "label": "Türkcə 2",
+        "authors": [ "TurkLatin" ],
+        "direction": "ltr"
+      },
+      {
         "id": "turken",
         "label": "Türkcə English",
         "authors": [ "TurkEnglish" ],
