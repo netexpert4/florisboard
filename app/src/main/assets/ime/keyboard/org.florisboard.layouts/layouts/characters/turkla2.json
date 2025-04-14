@@ -17,7 +17,7 @@
   [
     { "$": "auto_text_key", "code":   97, "label": "a" },
     { "$": "auto_text_key", "code":  115, "label": "s" },
-    { "$": "auto_text_key", "code":  351, "label": "ş" }
+    { "$": "auto_text_key", "code":  351, "label": "ş" },
     { "$": "auto_text_key", "code":  100, "label": "d" },
     { "$": "auto_text_key", "code":  102, "label": "f" },
     { "$": "auto_text_key", "code":  103, "label": "g" },
