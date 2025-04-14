@@ -44,6 +44,8 @@
     { "id": "et", "authors": [ "OneSheepy" ] },
     { "id": "tra", "authors": [ "TurkArab" ] },
     { "id": "trar", "authors": [ "TurkArab" ] },
+    { "id": "trar2", "authors": [ "TurkArab" ] },
+    { "id": "trar3", "authors": [ "TurkArab" ] },
     { "id": "fa", "authors": [ "PHELAT" ] },
     { "id": "fa2", "authors": [ "M-Koushan" ] },
     { "id": "fa3", "authors": [ "SaeID-Rz" ] },
