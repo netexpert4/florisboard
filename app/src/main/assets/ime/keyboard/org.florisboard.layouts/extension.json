@@ -325,6 +325,20 @@
         "direction": "rtl",
         "modifier": "org.florisboard.layouts:turkara"
       },
+       {
+        "id": "turkara2",
+        "label": "تۆرکجه",
+        "authors": [ "TurkArab" ],
+        "direction": "rtl",
+        "modifier": "org.florisboard.layouts:turkara2"
+      },
+       {
+        "id": "turkara3",
+        "label": "تۆرکجه",
+        "authors": [ "TurkArab" ],
+        "direction": "rtl",
+        "modifier": "org.florisboard.layouts:turkara3"
+      },
       {
         "id": "persian",
         "label": "Persian",
