@@ -79,6 +79,7 @@
     { "id": "sv", "authors": [ "patrickgold" ] },
     { "id": "tre", "authors": [ "TurkEnglish" ] },
     { "id": "trl", "authors": [ "Turklatin" ] },
+    { "id": "trl2", "authors": [ "Turklatin" ] },
     { "id": "tr", "authors": [ "kisekinopureya", "patrickgold", "dvrnynr" ] },
     { "id": "udm", "authors": [ "vorgoron" ] },
     { "id": "uk", "authors": [ "williamtheaker", "33kk", "honsiorovskyi" ] },
@@ -342,9 +343,9 @@
       "popupMapping": "org.florisboard.localization:trar2",
       "preferred": {
         "characters": "org.florisboard.layouts:turkara2",
-        "symbols": "org.florisboard.layouts:turkara",
-        "symbols2": "org.florisboard.layouts:turkara",
-        "numericRow": "org.florisboard.layouts:turkara"
+        "symbols": "org.florisboard.layouts:turkara2",
+        "symbols2": "org.florisboard.layouts:turkara2",
+        "numericRow": "org.florisboard.layouts:turkara2"
       }
     },
     {
@@ -354,9 +355,9 @@
       "popupMapping": "org.florisboard.localization:trar3",
       "preferred": {
         "characters": "org.florisboard.layouts:turkara3",
-        "symbols": "org.florisboard.layouts:turkara",
-        "symbols2": "org.florisboard.layouts:turkara",
-        "numericRow": "org.florisboard.layouts:turkara"
+        "symbols": "org.florisboard.layouts:turkara3",
+        "symbols2": "org.florisboard.layouts:turkara3",
+        "numericRow": "org.florisboard.layouts:turkara3"
       }
     },
     {
@@ -444,6 +445,15 @@
       "popupMapping": "org.florisboard.localization:trl",
       "preferred": {
         "characters": "org.florisboard.layouts:turkla"
+      }
+    },
+      {
+      "languageTag": "tr",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.florisboard.currencysets:dollar",
+      "popupMapping": "org.florisboard.localization:trl2",
+      "preferred": {
+        "characters": "org.florisboard.layouts:turkla2"
       }
     },
     {
