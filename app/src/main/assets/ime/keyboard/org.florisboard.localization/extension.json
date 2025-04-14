@@ -337,6 +337,30 @@
       "languageTag": "tr",
       "composer": "org.florisboard.composers:appender",
       "currencySet": "org.florisboard.currencysets:rial",
+      "popupMapping": "org.florisboard.localization:trar2",
+      "preferred": {
+        "characters": "org.florisboard.layouts:turkara2",
+        "symbols": "org.florisboard.layouts:turkara",
+        "symbols2": "org.florisboard.layouts:turkara",
+        "numericRow": "org.florisboard.layouts:turkara"
+      }
+    },
+    {
+      "languageTag": "tr",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.florisboard.currencysets:rial",
+      "popupMapping": "org.florisboard.localization:trar3",
+      "preferred": {
+        "characters": "org.florisboard.layouts:turkara3",
+        "symbols": "org.florisboard.layouts:turkara",
+        "symbols2": "org.florisboard.layouts:turkara",
+        "numericRow": "org.florisboard.layouts:turkara"
+      }
+    },
+    {
+      "languageTag": "tr",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.florisboard.currencysets:rial",
       "popupMapping": "org.florisboard.localization:trar",
       "preferred": {
         "characters": "org.florisboard.layouts:turkara",
