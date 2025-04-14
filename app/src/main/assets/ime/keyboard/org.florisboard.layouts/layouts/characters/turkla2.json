@@ -45,9 +45,9 @@
       "upper": { "code":   73, "label": "I" }
     },
     { "$": "auto_text_key", "code":  246, "label": "ö" },
-    { "code":   45, "label": "-" },
-    { "code":   39, "label": "'" },
-    { "code":   34, "label": "\"" },
-    { "code":   63, "label": "?" }
+    { "$": "auto_text_key", "code":   45, "label": "-" },
+    { "$": "auto_text_key", "code":   39, "label": "'" },
+    { "$": "auto_text_key", "code":   34, "label": "\"" },
+    { "$": "auto_text_key", "code":   63, "label": "?" }
  ]
 ]
