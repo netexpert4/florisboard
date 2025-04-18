@@ -1,8 +1,9 @@
 {
   "all": {
     "ی": {
+      "main": { "code": 1574, "label": "ئ" },
       "relevant": [
-        { "code": 1574, "label": "ئ" },
+        { "code": 1597, "label": "ؽ" },
         { "code": 1610, "label": "ي" },
         { "code": 1746, "label": "ے" }
       ]
@@ -40,12 +41,15 @@
       ]
     },
     "و": {
+      "main": { "code": 1572, "label": "ؤ" },
       "relevant": [
-        { "code": 1572, "label": "ؤ" }
+        { "code":  1734, "label": "ۆ" },
+        { "code": -255, "label": "وْ" },
+        { "code": 1735, "label": "ۇ" }
       ]
     },
-    "~right": {
-      "main": { "code": 1611, "label": "ً" },
+    "half_space": {
+      "main": { "code": 1600, "label": "ـ" },
       "relevant": [
         { "code": 1622, "label": "ٖ" },
         { "code": 1648, "label": "ٰ" },
@@ -53,13 +57,39 @@
         { "code": 1615, "label": "ُ" },
         { "code": 1616, "label": "ِ" },
         { "code": 1614, "label": "َ" },
-        { "code": 1600, "label": "ـ" },
         { "code": 1621, "label": "ٕ" },
         { "code": 1618, "label": "ْ" },
         { "code": 1617, "label": "ّ" },
         { "code": 1612, "label": "ٌ" },
+        { "code": 1611, "label": "ً" },
         { "code": 1613, "label": "ٍ" },
         { "code": 1620, "label": "ٔ" }
+      ]
+   },
+    "~right": {
+      "main": { "code":   34, "label": "\"" },
+      "relevant": [
+        { "code": 1642, "label": "٪" },
+        { "code":   37, "label": "%" },
+        { "code":   43, "label": "+" },
+        { "code":   45, "label": "-" },
+        { "code":   58, "label": ":" },
+        { "code":   39, "label": "'" },
+        { "code":   64, "label": "@" },
+        { "code":   44, "label": "," },
+        { "code": 1563, "label": "؛" },
+        { "code":   47, "label": "/" },
+        { "$": "layout_direction_selector",
+          "ltr": { "code":   40, "label": "(" },
+          "rtl": { "code":   41, "label": "(" }
+        },
+        { "$": "layout_direction_selector",
+          "ltr": { "code":   41, "label": ")" },
+          "rtl": { "code":   40, "label": ")" }
+        },
+        { "code":   35, "label": "#" },
+        { "code":   33, "label": "!" },
+        { "code": 1567, "label": "؟" }
       ]
     }
   },
