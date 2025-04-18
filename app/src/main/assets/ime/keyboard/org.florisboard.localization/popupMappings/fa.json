@@ -43,9 +43,9 @@
     "و": {
       "main": { "code": 1572, "label": "ؤ" },
       "relevant": [
-        { "code":  1734, "label": "ۆ" },
+        { "code": 1735, "label": "ۇ" },
         { "code": -255, "label": "وْ" },
-        { "code": 1735, "label": "ۇ" }
+        { "code":  1734, "label": "ۆ" }
       ]
     },
     "half_space": {
