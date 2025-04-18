@@ -1,36 +1,36 @@
 {
   "all": {
-      "q": {
+    "q": {
       "main": { "$": "auto_text_key", "code":  1075, "label": "г" }
     },
-     "e": {
+    "e": {
       "main": { "$": "auto_text_key", "code":  1077, "label": "е" }
     },
-     "ə": {
+    "ə": {
       "main": { "$": "auto_text_key", "code":  1241, "label": "ә" }
     },
-      "r": {
+    "r": {
       "main": { "$": "auto_text_key", "code":  1088, "label": "р" }
     },
-     "t": {
+    "t": {
       "main": { "$": "auto_text_key", "code":  1090, "label": "т" }
     }, 
-      "y": {
+    "y": {
       "main": { "$": "auto_text_key", "code":  1112, "label": "ј" }
     },
-      "u": {
+    "u": {
       "main": { "$": "auto_text_key", "code":  1091, "label": "у" },
         "relevant": [
         { "$": "auto_text_key", "code":  251, "label": "û" }
       ]
     },  
-       "ü": {
+    "ü": {
       "main": { "$": "auto_text_key", "code":  1199, "label": "ү" }
     }, 
-       "ö": {
+    "ö": {
       "main": { "$": "auto_text_key", "code":  1257, "label": "ө" }
     },  
-       "p": {
+    "p": {
       "main": { "$": "auto_text_key", "code":  1087, "label": "п" }
     }, 
     "a": {
@@ -41,54 +41,54 @@
     },
     "ş": {
       "main": { "$": "auto_text_key", "code":  1097, "label": "щ" }
-      }, 
-     "d": {
+    }, 
+    "d": {
       "main": { "$": "auto_text_key", "code":  1076, "label": "д" }
-       }, 
-       "f": {
+    }, 
+    "f": {
       "main": { "$": "auto_text_key", "code":  1092, "label": "ф" }
-        },  
-         "ğ": {
+    },  
+    "ğ": {
       "main": { "$": "auto_text_key", "code":  1171, "label": "ғ" }
-       },     
-           "h": {
+    },     
+    "h": {
       "main": { "$": "auto_text_key", "code":  1211, "label": "һ" }
-         },     
-           "j": {
+    },     
+    "j": {
       "main": { "$": "auto_text_key", "code":  1078, "label": "ж" }
-         },     
-              "k": {
+    },     
+    "k": {
       "main": { "$": "auto_text_key", "code":  1082, "label": "к" }
-        },         
-               "l": {
+    },         
+    "l": {
       "main": { "$": "auto_text_key", "code":  1083, "label": "л" } 
-         },         
-              "z": {
+    },         
+    "z": {
       "main": { "$": "auto_text_key", "code":  1079, "label": "з" }  
-         },        
-                "x": {
+    },        
+    "x": {
       "main": { "$": "auto_text_key", "code":  1093, "label": "х" }  
-         },          
+    },          
     "c": {
       "main": { "$": "auto_text_key", "code":  1209, "label": "ҹ" }
     },
-     "ç": {
+    "ç": {
       "main": { "$": "auto_text_key", "code":  1095, "label": "ч" }
     }, 
-      "v": {
+    "v": {
       "main": { "$": "auto_text_key", "code":  1074, "label": "в" }
     },   
-      "b": {
+    "b": {
       "main": { "$": "auto_text_key", "code":  1073, "label": "б" }
     },    
-      "n": {
+    "n": {
       "main": { "$": "auto_text_key", "code":  1085, "label": "н" }
     },    
-     "m": {
+    "m": {
       "main": { "$": "auto_text_key", "code":  1084, "label": "м" }
     },                  
     "g": {
-      "main": { "$": "auto_text_key", "code":  287, "label": "ҝ" }
+      "main": { "$": "auto_text_key", "code":  1181, "label": "ҝ" }
     },
     "i": {
       "main": { "$": "case_selector",
