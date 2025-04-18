@@ -1,0 +1,159 @@
+{
+  "all": {
+      "q": {
+      "main": { "$": "auto_text_key", "code":  1075, "label": "г" }
+    },
+     "e": {
+      "main": { "$": "auto_text_key", "code":  1077, "label": "е" }
+    },
+     "ə": {
+      "main": { "$": "auto_text_key", "code":  1241, "label": "ә" }
+    },
+      "r": {
+      "main": { "$": "auto_text_key", "code":  1088, "label": "р" }
+    },
+     "t": {
+      "main": { "$": "auto_text_key", "code":  1090, "label": "т" }
+    }, 
+      "y": {
+      "main": { "$": "auto_text_key", "code":  1112, "label": "ј" }
+    },
+      "u": {
+      "main": { "$": "auto_text_key", "code":  1091, "label": "у" },
+        "relevant": [
+        { "$": "auto_text_key", "code":  251, "label": "û" }
+      ]
+    },  
+       "ü": {
+      "main": { "$": "auto_text_key", "code":  1199, "label": "ү" }
+    }, 
+       "ö": {
+      "main": { "$": "auto_text_key", "code":  1257, "label": "ө" }
+    },  
+       "p": {
+      "main": { "$": "auto_text_key", "code":  1087, "label": "п" }
+    }, 
+    "a": {
+     "main": { "$": "auto_text_key", "code":  1072, "label": "а" },
+      "relevant": [
+        { "$": "auto_text_key", "code":  226, "label": "â" }
+      ]  
+    },
+    "ş": {
+      "main": { "$": "auto_text_key", "code":  1097, "label": "щ" }
+      }, 
+     "d": {
+      "main": { "$": "auto_text_key", "code":  1076, "label": "д" }
+       }, 
+       "f": {
+      "main": { "$": "auto_text_key", "code":  1092, "label": "ф" }
+        },  
+         "ğ": {
+      "main": { "$": "auto_text_key", "code":  1171, "label": "ғ" }
+       },     
+           "h": {
+      "main": { "$": "auto_text_key", "code":  1211, "label": "һ" }
+         },     
+           "j": {
+      "main": { "$": "auto_text_key", "code":  1078, "label": "ж" }
+         },     
+              "k": {
+      "main": { "$": "auto_text_key", "code":  1082, "label": "к" }
+        },         
+               "l": {
+      "main": { "$": "auto_text_key", "code":  1083, "label": "л" } 
+         },         
+              "z": {
+      "main": { "$": "auto_text_key", "code":  1079, "label": "з" }  
+         },        
+                "x": {
+      "main": { "$": "auto_text_key", "code":  1093, "label": "х" }  
+         },          
+    "c": {
+      "main": { "$": "auto_text_key", "code":  1209, "label": "ҹ" }
+    },
+     "ç": {
+      "main": { "$": "auto_text_key", "code":  1095, "label": "ч" }
+    }, 
+      "v": {
+      "main": { "$": "auto_text_key", "code":  1074, "label": "в" }
+    },   
+      "b": {
+      "main": { "$": "auto_text_key", "code":  1073, "label": "б" }
+    },    
+      "n": {
+      "main": { "$": "auto_text_key", "code":  1085, "label": "н" }
+    },    
+     "m": {
+      "main": { "$": "auto_text_key", "code":  1084, "label": "м" }
+    },                  
+    "g": {
+      "main": { "$": "auto_text_key", "code":  287, "label": "ҝ" }
+    },
+    "i": {
+      "main": { "$": "case_selector",
+        "lower": { "code":  1080, "label": "и" },
+        "upper": { "code":   1048, "label": "И" }
+      },
+      "relevant": [
+        { "$": "auto_text_key", "code":  238, "label": "î" }
+      ]
+    },
+    "ı": {
+      "main": { "$": "case_selector",
+        "lower": { "code":  1099, "label": "ы" },
+        "upper": { "code":  1067, "label": "Ы" }
+      },
+      "relevant": [
+        { "$": "auto_text_key", "code":  238, "label": "î" }
+      ]
+    },
+    "o": {
+      "main": { "$": "auto_text_key", "code":  1086, "label": "о" }
+    },
+    "s": {
+      "main": { "$": "auto_text_key", "code":  1089, "label": "с" }
+    },
+    "w": {
+      "main": { "$": "auto_text_key", { "code":   63, "label": "?" }
+    },
+    "~right": {
+      "main": { "code":   34, "label": "\"" },
+     "relevant": [
+        { "code":   38, "label": "&" },
+        { "code":   43, "label": "+" },
+        { "code":   44, "label": "," },
+        { "code":   59, "label": ";" },
+        { "$": "layout_direction_selector",
+          "ltr": { "code":   40, "label": "(" },
+          "rtl": { "code":   41, "label": "(" }
+        },
+        { "$": "layout_direction_selector",
+          "ltr": { "code":   41, "label": ")" },
+          "rtl": { "code":   40, "label": ")" }
+        },
+        { "code":   33, "label": "!" },
+        { "code":   35, "label": "#" },
+        { "code":   64, "label": "@" },
+        { "code":   37, "label": "%" },
+        { "code":   47, "label": "/" },
+        { "code":   58, "label": ":" },
+        { "code":   39, "label": "'" },
+        { "code":   45, "label": "-" },
+        { "code":   63, "label": "?" }
+      ]
+    }
+  },
+  "uri": {
+    "~right": {
+      "main": { "code": -255, "label": ".com" },
+      "relevant": [
+        { "code": -255, "label": ".gov" },
+        { "code": -255, "label": ".org" },
+        { "code": -255, "label": ".edu" },
+        { "code": -255, "label": ".ir" },
+        { "code": -255, "label": ".net" }
+      ]
+    }
+  }
+}
