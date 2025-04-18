@@ -29,11 +29,11 @@
         { "code": 1577, "label": "ة" }
       ]
     },
-    "ک": {
+  "ک": {
       "relevant": [
-        { "code": 1603, "label": "ك" },
-        { "code": 1706, "label": "ڪ"}
-      ]
+        { "code": 1706, "label": "ڪ"},
+        { "code": 1603, "label": "ك" }
+    ]
     },
     "ز": {
       "relevant": [
