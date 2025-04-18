@@ -88,7 +88,7 @@
       "main": { "$": "auto_text_key", "code":  1084, "label": "м" }
     },                  
     "g": {
-      "main": { "$": "auto_text_key", "code":  287, "label": "ҝ" }
+      "main": { "$": "auto_text_key", "code":  1181, "label": "ҝ" }
     },
     "i": {
       "main": { "$": "case_selector",
