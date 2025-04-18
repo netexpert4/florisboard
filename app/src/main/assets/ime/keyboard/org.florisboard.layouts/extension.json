@@ -50,6 +50,12 @@
         "direction": "ltr"
       },
       {
+        "id": "turkla3",
+        "label": "Türkcə 3",
+        "authors": [ "TurkLatin" ],
+        "direction": "ltr"
+      },
+      {
         "id": "turken",
         "label": "Türkcə English",
         "authors": [ "TurkEnglish" ],
