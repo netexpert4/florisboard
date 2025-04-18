@@ -115,7 +115,7 @@
       "main": { "$": "auto_text_key", "code":  1089, "label": "с" }
     },
     "w": {
-      "main": { "$": "auto_text_key", { "code":   63, "label": "?" }
+      "main": { "$": "auto_text_key", "code":   63, "label": "?" }
     },
     "~right": {
       "main": { "code":   34, "label": "\"" },
