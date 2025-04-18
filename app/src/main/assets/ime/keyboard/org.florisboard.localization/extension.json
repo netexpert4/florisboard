@@ -80,6 +80,7 @@
     { "id": "tre", "authors": [ "TurkEnglish" ] },
     { "id": "trl", "authors": [ "Turklatin" ] },
     { "id": "trl2", "authors": [ "Turklatin" ] },
+    { "id": "trl3", "authors": [ "Turklatin" ] },
     { "id": "tr", "authors": [ "kisekinopureya", "patrickgold", "dvrnynr" ] },
     { "id": "udm", "authors": [ "vorgoron" ] },
     { "id": "uk", "authors": [ "williamtheaker", "33kk", "honsiorovskyi" ] },
@@ -454,6 +455,15 @@
       "popupMapping": "org.florisboard.localization:trl2",
       "preferred": {
         "characters": "org.florisboard.layouts:turkla2"
+      }
+    },
+    {
+      "languageTag": "tr",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.florisboard.currencysets:dollar",
+      "popupMapping": "org.florisboard.localization:trl3",
+      "preferred": {
+        "characters": "org.florisboard.layouts:turkla3"
       }
     },
     {
