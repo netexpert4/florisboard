@@ -15,7 +15,8 @@
     "ə": {
       "main": { "$": "auto_text_key", "code":  1241, "label": "ә" },
       "relevant": [
-        { "$": "auto_text_key", "code":  228, "label": "ä" }
+        { "$": "auto_text_key", "code":  228, "label": "ä" },
+        { "$": "auto_text_key", "code":  234, "label": "ê" }
     ]
     },
     "r": {
@@ -24,7 +25,8 @@
     "t": {
       "main": { "$": "auto_text_key", "code":  1090, "label": "т" },
        "relevant": [
-        { "$": "auto_text_key", "code":  1094, "label": "ц" }
+        { "$": "auto_text_key", "code":  355, "label": "ţ" },
+         { "$": "auto_text_key", "code":  1094, "label": "ц" }
     ]
     }, 
     "y": {
@@ -100,7 +102,10 @@
       "main": { "$": "auto_text_key", "code":  1093, "label": "х" }  
     },          
     "c": {
-      "main": { "$": "auto_text_key", "code":  1209, "label": "ҹ" }
+      "main": { "$": "auto_text_key", "code":  1209, "label": "ҹ" },
+      "relevant": [
+        { "$": "auto_text_key", "code":  1175, "label": "җ" }
+      ]
     },
     "ç": {
       "main": { "$": "auto_text_key", "code":  1095, "label": "ч" }
@@ -131,7 +136,8 @@
         "upper": { "code":   1048, "label": "И" }
       },
       "relevant": [
-        { "$": "auto_text_key", "code":  238, "label": "î" }
+        { "$": "auto_text_key", "code":  238, "label": "î" },
+        { "$": "auto_text_key", "code":  301, "label": "ĭ" }
       ]
     },
     "ı": {
