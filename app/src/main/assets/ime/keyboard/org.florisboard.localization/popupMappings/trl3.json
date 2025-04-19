@@ -1,10 +1,16 @@
 {
   "all": {
     "q": {
-      "main": { "$": "auto_text_key", "code":  1075, "label": "г" }
+      "main": { "$": "auto_text_key", "code":  1075, "label": "г" },
+     "relevant": [
+        { "$": "auto_text_key", "code":  1179, "label": "қ" }
+    ] 
     },
     "e": {
-      "main": { "$": "auto_text_key", "code":  1077, "label": "е" }
+      "main": { "$": "auto_text_key", "code":  1077, "label": "е" },
+    "relevant": [
+        { "$": "auto_text_key", "code":  1101, "label": "э" }
+    ]  
     },
     "ə": {
       "main": { "$": "auto_text_key", "code":  1241, "label": "ә" },
@@ -16,7 +22,10 @@
       "main": { "$": "auto_text_key", "code":  1088, "label": "р" }
     },
     "t": {
-      "main": { "$": "auto_text_key", "code":  1090, "label": "т" }
+      "main": { "$": "auto_text_key", "code":  1090, "label": "т" },
+       "relevant": [
+        { "$": "auto_text_key", "code":  1094, "label": "ц" }
+    ]
     }, 
     "y": {
       "main": { "$": "auto_text_key", "code":  1112, "label": "ј" },
@@ -50,7 +59,10 @@
      ]  
     },
     "ş": {
-      "main": { "$": "auto_text_key", "code":  1097, "label": "щ" }
+      "main": { "$": "auto_text_key", "code":  1096, "label": "ш" },
+      "relevant": [
+        { "$": "auto_text_key", "code":  1097, "label": "щ" }
+    ]
     }, 
     "d": {
       "main": { "$": "auto_text_key", "code":  1076, "label": "д" }
@@ -62,7 +74,10 @@
       "main": { "$": "auto_text_key", "code":  1171, "label": "ғ" }
     },     
     "h": {
-      "main": { "$": "auto_text_key", "code":  1211, "label": "һ" }
+      "main": { "$": "auto_text_key", "code":  1211, "label": "һ" },
+      "relevant": [
+        { "$": "auto_text_key", "code":  1203, "label": "ҳ" }
+      ]
     },     
     "j": {
       "main": { "$": "auto_text_key", "code":  1078, "label": "ж" },
@@ -123,11 +138,17 @@
         "upper": { "code":  1067, "label": "Ы" }
       },
       "relevant": [
-        { "$": "auto_text_key", "code":  238, "label": "î" }
+        { "$": "auto_text_key", "code":  238, "label": "î" },
+        { "$": "auto_text_key", "code":  1100, "label": "ь" },
+        { "$": "auto_text_key", "code":  1098, "label": "ъ" }
       ]
     },
     "o": {
-      "main": { "$": "auto_text_key", "code":  1086, "label": "о" }
+      "main": { "$": "auto_text_key", "code":  1086, "label": "о" },
+      "relevant": [
+        { "$": "auto_text_key", "code":  1118, "label": "ў" },
+        { "$": "auto_text_key", "code":  1105, "label": "ё" }
+      ] 
     },
     "s": {
       "main": { "$": "auto_text_key", "code":  1089, "label": "с" }
