@@ -67,7 +67,7 @@
       ]
    },
     "~right": {
-      "main": { "code":   34, "label": "\"" },
+      "main": { "code": 1567, "label": "؟" },
       "relevant": [
         { "code": 1642, "label": "٪" },
         { "code":   37, "label": "%" },
@@ -89,7 +89,7 @@
         },
         { "code":   35, "label": "#" },
         { "code":   33, "label": "!" },
-        { "code": 1567, "label": "؟" }
+        { "code":   34, "label": "\"" }
       ]
     }
   },
