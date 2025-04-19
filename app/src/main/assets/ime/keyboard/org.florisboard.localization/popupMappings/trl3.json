@@ -39,7 +39,8 @@
         "relevant": [
         { "$": "auto_text_key", "code":  251, "label": "û" },
         { "$": "auto_text_key", "code":  363, "label": "ū" },
-        { "$": "auto_text_key", "code":  1201, "label": "ұ" }  
+        { "$": "auto_text_key", "code":  1201, "label": "ұ" },
+        { "$": "auto_text_key", "code":  1102, "label": "ю" }   
       ]
     },  
     "ü": {
@@ -55,7 +56,8 @@
      "main": { "$": "auto_text_key", "code":  1072, "label": "а" },
       "relevant": [
         { "$": "auto_text_key", "code":  226, "label": "â" },
-        { "$": "auto_text_key", "code":  228, "label": "ä" }
+        { "$": "auto_text_key", "code":  228, "label": "ä" },
+        { "$": "auto_text_key", "code":  1103, "label": "я" }
      ]  
     },
     "ş": {
