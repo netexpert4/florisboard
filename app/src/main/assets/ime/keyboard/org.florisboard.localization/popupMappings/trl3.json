@@ -70,6 +70,8 @@
       "main": { "$": "auto_text_key", "code":  1199, "label": "ү" },
      "relevant": [
         { "$": "auto_text_key", "code":  250, "label": "ú" },
+       { "$": "auto_text_key", "code":  369, "label": "ű" },
+       { "$": "auto_text_key", "code":  533, "label": "ȕ" },
        { "$": "auto_text_key", "code":  1265, "label": "ӱ" },
        { "$": "auto_text_key", "code":  1267, "label": "ӳ" },
        { "$": "auto_text_key", "code":  68615, "label": "𐰇" }
@@ -80,6 +82,8 @@
       "relevant": [
         { "$": "auto_text_key", "code":  243, "label": "ó" },
         { "$": "auto_text_key", "code":  245, "label": "õ" },
+        { "$": "auto_text_key", "code":  337, "label": "ő" },
+        { "$": "auto_text_key", "code":  525, "label": "ȍ" },
         { "$": "auto_text_key", "code":  1255, "label": "ӧ" },
         { "$": "auto_text_key", "code":  68615, "label": "𐰇" }
     ]  
@@ -103,6 +107,7 @@
     "ş": {
       "main": { "$": "auto_text_key", "code":  1096, "label": "ш" },
       "relevant": [
+        { "$": "auto_text_key", "code":  537, "label": "ș" },
         { "$": "auto_text_key", "code":  1097, "label": "щ" },
         { "$": "auto_text_key", "code":  68673, "label": "𐱁" },
         { "$": "auto_text_key", "code":  68671, "label": "𐰿" }
@@ -123,6 +128,7 @@
       "main": { "$": "auto_text_key", "code":  1171, "label": "ғ" },
       "relevant": [
         { "$": "auto_text_key", "code":  501, "label": "ǵ" },
+        { "$": "auto_text_key", "code":  487, "label": "ǧ" },
         { "$": "auto_text_key", "code":  419, "label": "ƣ" },
         { "$": "auto_text_key", "code":  1173, "label": "ҕ" }
       ]
@@ -176,7 +182,7 @@
     "ç": {
       "main": { "$": "auto_text_key", "code":  1095, "label": "ч" },
       "relevant": [
-        { "$": "auto_text_key", "code":  1118, "label": "ў" },
+        { "$": "auto_text_key", "code":  1195, "label": "ҫ" },
         { "$": "auto_text_key", "code":  68658, "label": "𐰲" },
         { "$": "auto_text_key", "code":  68657, "label": "𐰱" }
       ]
