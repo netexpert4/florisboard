@@ -36,7 +36,8 @@
       "main": { "$": "auto_text_key", "code":  1088, "label": "р" },
       "relevant": [
       { "$": "auto_text_key", "code":  68666, "label": "𐰺" },
-      { "$": "auto_text_key", "code":  68668, "label": "𐰼" }
+      { "$": "auto_text_key", "code":  68668, "label": "𐰼" },
+      { "$": "auto_text_key", "code":  68667, "label": "𐰻" }  
     ]  
     },
     "t": {
@@ -48,7 +49,9 @@
          { "$": "auto_text_key", "code":  1195, "label": "ҫ" },
          { "$": "auto_text_key", "code":  68675, "label": "𐱃" },
          { "$": "auto_text_key", "code":  68677, "label": "𐱅" },
-         { "$": "auto_text_key", "code":  68679, "label": "𐱇" }
+         { "$": "auto_text_key", "code":  68679, "label": "𐱇" },
+         { "$": "auto_text_key", "code":  68676, "label": "𐱄" },
+         { "$": "auto_text_key", "code":  68678, "label": "𐱆" }
     ]
     }, 
     "y": {
@@ -119,8 +122,10 @@
       "relevant": [
         { "$": "auto_text_key", "code":  537, "label": "ș" },
         { "$": "auto_text_key", "code":  1097, "label": "щ" },
+        { "$": "auto_text_key", "code":  68671, "label": "𐰿" },
         { "$": "auto_text_key", "code":  68673, "label": "𐱁" },
-        { "$": "auto_text_key", "code":  68671, "label": "𐰿" }
+        { "$": "auto_text_key", "code":  68672, "label": "𐱀" },
+        { "$": "auto_text_key", "code":  68674, "label": "𐱂" }
     ]
     }, 
     "d": {
