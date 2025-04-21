@@ -8,14 +8,18 @@
        { "$": "auto_text_key", "code":  1220, "label": "ӄ" },
        { "$": "auto_text_key", "code":  68660, "label": "𐰴" },
        { "$": "auto_text_key", "code":  68662, "label": "𐰶" },
-       { "$": "auto_text_key", "code":  68664, "label": "𐰸" }
+       { "$": "auto_text_key", "code":  68664, "label": "𐰸" },
+       { "$": "auto_text_key", "code":  68661, "label": "𐰵" },
+       { "$": "auto_text_key", "code":  68663, "label": "𐰷" },
+       { "$": "auto_text_key", "code":  68665, "label": "𐰹" }
     ] 
     },
     "e": {
       "main": { "$": "auto_text_key", "code":  1077, "label": "е" },
     "relevant": [
       { "$": "auto_text_key", "code":  1101, "label": "э" },
-      { "$": "auto_text_key", "code":  68608, "label": "𐰀" }
+      { "$": "auto_text_key", "code":  68608, "label": "𐰀" },
+      { "$": "auto_text_key", "code":  68613, "label": "𐰅" }
     ]  
     },
     "ə": {
@@ -53,7 +57,9 @@
         { "$": "auto_text_key", "code":  253, "label": "ý" },
         { "$": "auto_text_key", "code":  1081, "label": "й" },
         { "$": "auto_text_key", "code":  68630, "label": "𐰖" },
-        { "$": "auto_text_key", "code":  68632, "label": "𐰘" }
+        { "$": "auto_text_key", "code":  68632, "label": "𐰘" },
+        { "$": "auto_text_key", "code":  68631, "label": "𐰗" },
+        { "$": "auto_text_key", "code":  68633, "label": "𐰙" }
       ]  
     },
     "u": {
@@ -74,7 +80,8 @@
        { "$": "auto_text_key", "code":  533, "label": "ȕ" },
        { "$": "auto_text_key", "code":  1265, "label": "ӱ" },
        { "$": "auto_text_key", "code":  1267, "label": "ӳ" },
-       { "$": "auto_text_key", "code":  68615, "label": "𐰇" }
+       { "$": "auto_text_key", "code":  68615, "label": "𐰇" },
+       { "$": "auto_text_key", "code":  68616, "label": "𐰈" }
     ]   
     }, 
     "ö": {
@@ -85,7 +92,8 @@
         { "$": "auto_text_key", "code":  337, "label": "ő" },
         { "$": "auto_text_key", "code":  525, "label": "ȍ" },
         { "$": "auto_text_key", "code":  1255, "label": "ӧ" },
-        { "$": "auto_text_key", "code":  68615, "label": "𐰇" }
+        { "$": "auto_text_key", "code":  68615, "label": "𐰇" },
+        { "$": "auto_text_key", "code":  68616, "label": "𐰈" }
     ]  
     },  
     "p": {
@@ -101,7 +109,9 @@
         { "$": "auto_text_key", "code":  226, "label": "â" },
         { "$": "auto_text_key", "code":  228, "label": "ä" },
         { "$": "auto_text_key", "code":  1103, "label": "я" },
-        { "$": "auto_text_key", "code":  68608, "label": "𐰀" }
+        { "$": "auto_text_key", "code":  68608, "label": "𐰀" },
+        { "$": "auto_text_key", "code":  68609, "label": "𐰁" },
+        { "$": "auto_text_key", "code":  68610, "label": "𐰂" }
      ]  
     },
     "ş": {
@@ -118,7 +128,8 @@
       "relevant": [
         { "$": "auto_text_key", "code":  273, "label": "đ" },
         { "$": "auto_text_key", "code":  68625, "label": "𐰑" },
-        { "$": "auto_text_key", "code":  68627, "label": "𐰓" }
+        { "$": "auto_text_key", "code":  68627, "label": "𐰓" },
+        { "$": "auto_text_key", "code":  68626, "label": "𐰒" }
     ]
     }, 
     "f": {
@@ -150,7 +161,9 @@
       "main": { "$": "auto_text_key", "code":  1082, "label": "к" },
       "relevant": [
         { "$": "auto_text_key", "code":  68634, "label": "𐰚" },
-        { "$": "auto_text_key", "code":  68636, "label": "𐰜" }
+        { "$": "auto_text_key", "code":  68636, "label": "𐰜" },
+        { "$": "auto_text_key", "code":  68635, "label": "𐰛" },
+        { "$": "auto_text_key", "code":  68637, "label": "𐰝" }
       ]
     },         
     "l": {
@@ -159,14 +172,16 @@
         { "$": "auto_text_key", "code":  1113, "label": "љ" },
         { "$": "auto_text_key", "code":  68638, "label": "𐰞" },
         { "$": "auto_text_key", "code":  68640, "label": "𐰠" },
-        { "$": "auto_text_key", "code":  68641, "label": "𐰡" }
+        { "$": "auto_text_key", "code":  68641, "label": "𐰡" },
+        { "$": "auto_text_key", "code":  68639, "label": "𐰟" }
       ]
     },         
     "z": {
       "main": { "$": "auto_text_key", "code":  1079, "label": "з" },
       "relevant": [
         { "$": "auto_text_key", "code":  1177, "label": "ҙ" },
-        { "$": "auto_text_key", "code":  68628, "label": "𐰔" }
+        { "$": "auto_text_key", "code":  68628, "label": "𐰔" },
+        { "$": "auto_text_key", "code":  68629, "label": "𐰕" }
       ]
     },        
     "x": {
@@ -184,7 +199,8 @@
       "relevant": [
         { "$": "auto_text_key", "code":  1195, "label": "ҫ" },
         { "$": "auto_text_key", "code":  68658, "label": "𐰲" },
-        { "$": "auto_text_key", "code":  68657, "label": "𐰱" }
+        { "$": "auto_text_key", "code":  68657, "label": "𐰱" },
+        { "$": "auto_text_key", "code":  68659, "label": "𐰳" }
       ]
     }, 
     "v": {
@@ -198,7 +214,9 @@
       "relevant": [
         { "$": "auto_text_key", "code":  68617, "label": "𐰉" },
         { "$": "auto_text_key", "code":  68619, "label": "𐰋" },
-        { "$": "auto_text_key", "code":  68680, "label": "𐱈" }
+        { "$": "auto_text_key", "code":  68680, "label": "𐱈" },
+        { "$": "auto_text_key", "code":  68618, "label": "𐰊" },
+        { "$": "auto_text_key", "code":  68620, "label": "𐰌" }
       ]
     },    
     "n": {
@@ -217,7 +235,13 @@
         { "$": "auto_text_key", "code":  68648, "label": "𐰨" },
         { "$": "auto_text_key", "code":  68653, "label": "𐰭" },
         { "$": "auto_text_key", "code":  68646, "label": "𐰦" },
-        { "$": "auto_text_key", "code":  68650, "label": "𐰪" }
+        { "$": "auto_text_key", "code":  68650, "label": "𐰪" },
+        { "$": "auto_text_key", "code":  68645, "label": "𐰥" },
+        { "$": "auto_text_key", "code":  68649, "label": "𐰩" },
+        { "$": "auto_text_key", "code":  68652, "label": "𐰬" },
+        { "$": "auto_text_key", "code":  68654, "label": "𐰮" },
+        { "$": "auto_text_key", "code":  68647, "label": "𐰧" },
+        { "$": "auto_text_key", "code":  68651, "label": "𐰫" }
       ]  
     },    
     "m": {
@@ -230,7 +254,9 @@
       "main": { "$": "auto_text_key", "code":  1181, "label": "ҝ" },
       "relevant": [
         { "$": "auto_text_key", "code":  68621, "label": "𐰍" },
-        { "$": "auto_text_key", "code":  68623, "label": "𐰏" }
+        { "$": "auto_text_key", "code":  68623, "label": "𐰏" },
+        { "$": "auto_text_key", "code":  68622, "label": "𐰎" },
+        { "$": "auto_text_key", "code":  68624, "label": "𐰐" }
       ]
     },
     "i": {
@@ -242,7 +268,8 @@
         { "$": "auto_text_key", "code":  238, "label": "î" },
         { "$": "auto_text_key", "code":  301, "label": "ĭ" },
         { "$": "auto_text_key", "code":  1110, "label": "і" },
-        { "$": "auto_text_key", "code":  68611, "label": "𐰃" }
+        { "$": "auto_text_key", "code":  68611, "label": "𐰃" },
+        { "$": "auto_text_key", "code":  68612, "label": "𐰄" }
       ]
     },
     "ı": {
@@ -255,7 +282,8 @@
         { "$": "auto_text_key", "code":  237, "label": "í" },
         { "$": "auto_text_key", "code":  1100, "label": "ь" },
         { "$": "auto_text_key", "code":  1098, "label": "ъ" },
-        { "$": "auto_text_key", "code":  68611, "label": "𐰃" }
+        { "$": "auto_text_key", "code":  68611, "label": "𐰃" },
+        { "$": "auto_text_key", "code":  68612, "label": "𐰄" }
       ]
     },
     "o": {
