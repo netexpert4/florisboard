@@ -10,7 +10,8 @@
     "e": {
       "main": { "$": "auto_text_key", "code":  1077, "label": "е" },
     "relevant": [
-        { "$": "auto_text_key", "code":  1101, "label": "э" }
+      { "$": "auto_text_key", "code":  279, "label": "ė" },
+      { "$": "auto_text_key", "code":  1101, "label": "э" }
     ]  
     },
     "ə": {
@@ -18,7 +19,8 @@
       "relevant": [
         { "$": "auto_text_key", "code":  228, "label": "ä" },
         { "$": "auto_text_key", "code":  225, "label": "á" },
-        { "$": "auto_text_key", "code":  234, "label": "ê" }
+        { "$": "auto_text_key", "code":  234, "label": "ê" },
+        { "$": "auto_text_key", "code":  1233, "label": "ӑ" }
     ]
     },
     "r": {
@@ -52,7 +54,8 @@
       "main": { "$": "auto_text_key", "code":  1199, "label": "ү" },
      "relevant": [
         { "$": "auto_text_key", "code":  250, "label": "ú" },
-       { "$": "auto_text_key", "code":  1265, "label": "ӱ" }
+       { "$": "auto_text_key", "code":  1265, "label": "ӱ" },
+       { "$": "auto_text_key", "code":  1267, "label": "ӳ" }
     ]   
     }, 
     "ö": {
@@ -109,7 +112,10 @@
       "main": { "$": "auto_text_key", "code":  1082, "label": "к" }
     },         
     "l": {
-      "main": { "$": "auto_text_key", "code":  1083, "label": "л" } 
+      "main": { "$": "auto_text_key", "code":  1083, "label": "л" },
+      "relevant": [
+        { "$": "auto_text_key", "code":  1113, "label": "љ" }
+      ]
     },         
     "z": {
       "main": { "$": "auto_text_key", "code":  1079, "label": "з" },
@@ -123,11 +129,15 @@
     "c": {
       "main": { "$": "auto_text_key", "code":  1209, "label": "ҹ" },
       "relevant": [
+        { "$": "auto_text_key", "code":  1228, "label": "ӌ" },
         { "$": "auto_text_key", "code":  1175, "label": "җ" }
       ]
     },
     "ç": {
-      "main": { "$": "auto_text_key", "code":  1095, "label": "ч" }
+      "main": { "$": "auto_text_key", "code":  1095, "label": "ч" },
+      "relevant": [
+        { "$": "auto_text_key", "code":  269, "label": "č" }
+      ]
     }, 
     "v": {
       "main": { "$": "auto_text_key", "code":  1074, "label": "в" },
@@ -145,7 +155,8 @@
         { "$": "auto_text_key", "code":  328, "label": "ň" },
         { "$": "auto_text_key", "code":  42897, "label": "ꞑ" },
         { "$": "auto_text_key", "code":  1187, "label": "ң" },
-        { "$": "auto_text_key", "code":  1189, "label": "ҥ" }
+        { "$": "auto_text_key", "code":  1189, "label": "ҥ" },
+        { "$": "auto_text_key", "code":  1114, "label": "њ" }
       ]  
     },    
     "m": {
@@ -161,7 +172,8 @@
       },
       "relevant": [
         { "$": "auto_text_key", "code":  238, "label": "î" },
-        { "$": "auto_text_key", "code":  301, "label": "ĭ" }
+        { "$": "auto_text_key", "code":  301, "label": "ĭ" },
+        { "$": "auto_text_key", "code":  1110, "label": "і" }
       ]
     },
     "ı": {
