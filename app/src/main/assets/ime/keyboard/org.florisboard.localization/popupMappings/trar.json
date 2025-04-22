@@ -1,10 +1,8 @@
 {
   "all": {
     "ی": {
-      "main": { "code": 1574, "label": "ئ" },
+      "main": { "code": 1610, "label": "ي" },
       "relevant": [
-        { "code": 1597, "label": "ؽ" },
-        { "code": 1610, "label": "ي" },
         { "code": 1746, "label": "ے" }
       ]
     },
@@ -18,6 +16,7 @@
       ]
     },
     "ه": {
+      "main": { "code": 1749, "label": "ە" },
       "relevant": [
         { "code": 1729, "label": "ہ" },
         { "code": 1728, "label": "ۀ" },
@@ -35,19 +34,25 @@
         { "code": 1603, "label": "ك" }
     ]
     },
+    "ن": {
+      "relevant": [
+        { "code": 1709, "label": "ڭ"}
+    ]
+    },
     "ز": {
       "relevant": [
         { "code": 1688, "label": "ژ" }
       ]
     },
     "ئ": {
+      "main": { "code": 1749, "label": "ە" },
       "relevant": [
-        { "code": 1597, "label": "ؽ" }
+       { "code": 1744, "label": "ې" }
       ]
     },
     "ؽ": {
       "relevant": [
-        { "code": 1574, "label": "ئ" }
+        { "code": 1609, "label": "ى" }
       ]
     },
     "ؤ": {
@@ -56,14 +61,14 @@
       ]
     },
     "ۆ": {
+      "main": { "code": 1735, "label": "ۇ"},
       "relevant": [
-       { "code": 1735, "label": "ۇ" }
+       { "code": 1736, "label": "ۈ" }
       ]
     },
     "و": {
-      "main": { "code": -255, "label": "وْ" },
-      "relevant": [
-       { "code": 1735, "label": "ۇ" }
+     "relevant": [
+      { "code": 1739, "label": "ۋ" }
        ]
     },
     "half_space": {
