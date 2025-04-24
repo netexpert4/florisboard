@@ -291,7 +291,6 @@
         "lower": { "code":  11405, "label": "ⲍ" },
         "upper": { "code":   918, "label": "Ζ" }
         },
-        { "$": "auto_text_key", "code":  1177, "label": "ҙ" },
         { "$": "auto_text_key", "code":  68628, "label": "𐰔" },
         { "$": "auto_text_key", "code":  68629, "label": "𐰕" }
       ]
