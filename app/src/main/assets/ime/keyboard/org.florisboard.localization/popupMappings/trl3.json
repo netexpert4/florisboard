@@ -338,7 +338,9 @@
     },
     "w": {
       "main": { "$": "auto_text_key", "code":   63, "label": "?" },
+     "relevant": [
       { "$": "auto_text_key", "code":  1309, "label": "ԝ" }
+    ]
     },
     "~right": {
       "main": { "code":   34, "label": "\"" },
