@@ -177,7 +177,7 @@
       "main": { "$": "auto_text_key", "code":  1211, "label": "һ" },
       "relevant": [
         { "$": "case_selector",
-        "lower": { "code":  1392, "label": "հ" },
+        "lower": { "code":  1211, "label": "һ" },
         "upper": { "code":   919, "label": "Η" }
         },
         { "$": "auto_text_key", "code":  1203, "label": "ҳ" }
@@ -302,7 +302,7 @@
       "relevant": [
         { "$": "case_selector",
         "lower": { "code":  609, "label": "ɡ" },
-        "upper": { "code":   1292, "label": "Ԍ" }
+        "upper": { "code":   120230, "label": "𝖦" }
       },
         { "$": "auto_text_key", "code":  68621, "label": "𐰍" },
         { "$": "auto_text_key", "code":  68623, "label": "𐰏" },
