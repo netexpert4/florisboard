@@ -36,7 +36,10 @@
     "r": {
       "main": { "$": "auto_text_key", "code":  1088, "label": "р" },
       "relevant": [
-      { "$": "auto_text_key", "code":  43847, "label": "ꭇ" },
+      { "$": "case_selector",
+        "lower": { "code":  43847, "label": "ꭇ" },
+        "upper": { "code":  5025, "label": "Ꭱ" }
+      },
       { "$": "auto_text_key", "code":  68666, "label": "𐰺" },
       { "$": "auto_text_key", "code":  68668, "label": "𐰼" },
       { "$": "auto_text_key", "code":  68667, "label": "𐰻" }  
@@ -184,7 +187,10 @@
     "l": {
       "main": { "$": "auto_text_key", "code":  1083, "label": "л" },
       "relevant": [
-        { "$": "auto_text_key", "code":  1231, "label": "ӏ" },
+        { "$": "case_selector",
+        "lower": { "code":  1231, "label": "ӏ" },
+        "upper": { "code":   42824, "label": "Ꝉ" }
+        },
         { "$": "auto_text_key", "code":  1113, "label": "љ" },
         { "$": "auto_text_key", "code":  68638, "label": "𐰞" },
         { "$": "auto_text_key", "code":  68640, "label": "𐰠" },
@@ -229,7 +235,10 @@
     "b": {
       "main": { "$": "auto_text_key", "code":  1073, "label": "б" },
       "relevant": [
-        { "$": "auto_text_key", "code":  5551, "label": "ᖯ" },
+        { "$": "case_selector",
+        "lower": { "code":  5551, "label": "ᖯ" },
+        "upper": { "code":   385, "label": "Ɓ" }
+        },
         { "$": "auto_text_key", "code":  68617, "label": "𐰉" },
         { "$": "auto_text_key", "code":  68619, "label": "𐰋" },
         { "$": "auto_text_key", "code":  68680, "label": "𐱈" },
@@ -240,7 +249,10 @@
     "n": {
       "main": { "$": "auto_text_key", "code":  1085, "label": "н" },
       "relevant": [
-        { "$": "auto_text_key", "code":  1400, "label": "ո" },
+        { "$": "case_selector",
+        "lower": { "code":  1400, "label": "ո" },
+        "upper": { "code":   11418, "label": "Ⲛ" }
+        },
         { "$": "auto_text_key", "code":  241, "label": "ñ" },
         { "$": "auto_text_key", "code":  328, "label": "ň" },
         { "$": "auto_text_key", "code":  324, "label": "ń" },
