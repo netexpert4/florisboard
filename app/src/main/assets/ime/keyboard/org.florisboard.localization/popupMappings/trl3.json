@@ -37,8 +37,8 @@
       "main": { "$": "auto_text_key", "code":  1088, "label": "р" },
       "relevant": [
       { "$": "case_selector",
-        "lower": { "code":  43847, "label": "ꭇ" },
-        "upper": { "code":  5025, "label": "Ꭱ" }
+        "lower": { "code":  120267, "label": "𝗋" },
+        "upper": { "code":  120241, "label": "𝖱" }
       },
       { "$": "auto_text_key", "code":  68666, "label": "𐰺" },
       { "$": "auto_text_key", "code":  68668, "label": "𐰼" },
@@ -48,10 +48,11 @@
     "t": {
       "main": { "$": "auto_text_key", "code":  1090, "label": "т" },
        "relevant": [
-        { "$": "auto_text_key", "code":  355, "label": "ţ" },
-         { "$": "auto_text_key", "code":  359, "label": "ŧ" },
+         { "$": "case_selector",
+        "lower": { "code":  120269 , "label": "𝗍" },
+        "upper": { "code":  932, "label": "Τ" }
+         },
          { "$": "auto_text_key", "code":  1094, "label": "ц" },
-         { "$": "auto_text_key", "code":  1195, "label": "ҫ" },
          { "$": "auto_text_key", "code":  68675, "label": "𐱃" },
          { "$": "auto_text_key", "code":  68677, "label": "𐱅" },
          { "$": "auto_text_key", "code":  68679, "label": "𐱇" },
@@ -100,11 +101,11 @@
     "ö": {
       "main": { "$": "auto_text_key", "code":  1257, "label": "ө" },
       "relevant": [
+        { "$": "auto_text_key", "code":  1255, "label": "ӧ" },
         { "$": "auto_text_key", "code":  243, "label": "ó" },
         { "$": "auto_text_key", "code":  245, "label": "õ" },
         { "$": "auto_text_key", "code":  337, "label": "ő" },
         { "$": "auto_text_key", "code":  525, "label": "ȍ" },
-        { "$": "auto_text_key", "code":  1255, "label": "ӧ" },
         { "$": "auto_text_key", "code":  68615, "label": "𐰇" },
         { "$": "auto_text_key", "code":  68616, "label": "𐰈" }
     ]  
@@ -124,7 +125,6 @@
      "main": { "$": "auto_text_key", "code":  1072, "label": "а" },
       "relevant": [
         { "$": "auto_text_key", "code":  226, "label": "â" },
-        { "$": "auto_text_key", "code":  228, "label": "ä" },
         { "$": "auto_text_key", "code":  1103, "label": "я" },
         { "$": "auto_text_key", "code":  68608, "label": "𐰀" },
         { "$": "auto_text_key", "code":  68609, "label": "𐰁" },
@@ -147,9 +147,8 @@
       "relevant": [
         { "$": "case_selector",
         "lower": { "code":  1281, "label": "ԁ" },
-        "upper": { "code":  5024, "label": "Ꭰ" }
+        "upper": { "code":  120227, "label": "𝖣" }
         },
-        { "$": "auto_text_key", "code":  273, "label": "đ" },
         { "$": "auto_text_key", "code":  68625, "label": "𐰑" },
         { "$": "auto_text_key", "code":  68627, "label": "𐰓" },
         { "$": "auto_text_key", "code":  68626, "label": "𐰒" }
@@ -159,8 +158,8 @@
       "main": { "$": "auto_text_key", "code":  1092, "label": "ф" },
       "relevant": [
        { "$": "case_selector",
-        "lower": { "code":  7711, "label": "ḟ" },
-        "upper": { "code":  988, "label": "Ϝ" }
+        "lower": { "code":  120255, "label": "𝖿" },
+        "upper": { "code":  120229, "label": "𝖥" }
         }
       ]
     },  
@@ -177,7 +176,7 @@
       "main": { "$": "auto_text_key", "code":  1211, "label": "һ" },
       "relevant": [
         { "$": "case_selector",
-        "lower": { "code":  1211, "label": "һ" },
+        "lower": { "code":  120257, "label": "𝗁" },
         "upper": { "code":   919, "label": "Η" }
         },
         { "$": "auto_text_key", "code":  1203, "label": "ҳ" }
@@ -194,6 +193,10 @@
     "k": {
       "main": { "$": "auto_text_key", "code":  1082, "label": "к" },
       "relevant": [
+        { "$": "case_selector",
+        "lower": { "code":  120260, "label": "𝗄" },
+        "upper": { "code":   922, "label": "Κ" }
+        },
         { "$": "auto_text_key", "code":  68634, "label": "𐰚" },
         { "$": "auto_text_key", "code":  68636, "label": "𐰜" },
         { "$": "auto_text_key", "code":  68635, "label": "𐰛" },
@@ -204,8 +207,8 @@
       "main": { "$": "auto_text_key", "code":  1083, "label": "л" },
       "relevant": [
         { "$": "case_selector",
-        "lower": { "code":  1231, "label": "ӏ" },
-        "upper": { "code":   5086, "label": "Ꮮ" }
+        "lower": { "code":  120261, "label": "𝗅" },
+        "upper": { "code":   8556, "label": "Ⅼ" }
         },
         { "$": "auto_text_key", "code":  68638, "label": "𐰞" },
         { "$": "auto_text_key", "code":  68640, "label": "𐰠" },
@@ -248,7 +251,10 @@
     "v": {
       "main": { "$": "auto_text_key", "code":  1074, "label": "в" },
       "relevant": [
-        { "$": "auto_text_key", "code":  43945, "label": "ꮩ" }
+        { "$": "case_selector",
+        "lower": { "code":  12271, "label": "𝗏" },
+        "upper": { "code":   12245, "label": "𝖵" }
+        }
       ]
     },   
     "b": {
@@ -293,7 +299,10 @@
     "m": {
       "main": { "$": "auto_text_key", "code":  1084, "label": "м" },
       "relevant": [
-        { "$": "auto_text_key", "code":  7743, "label": "ḿ" },
+       { "$": "case_selector",
+        "lower": { "code":  120262, "label": "𝗆" },
+        "upper": { "code":   924, "label": "Μ" }
+      },
         { "$": "auto_text_key", "code":  68642, "label": "𐰢" }
       ]
     },                  
@@ -316,8 +325,10 @@
         "upper": { "code":   1048, "label": "И" }
       },
       "relevant": [
-        { "$": "auto_text_key", "code":  1110, "label": "і" },
-        { "$": "auto_text_key", "code":  237, "label": "í" },
+        { "$": "case_selector",
+        "lower": { "code":  1110, "label": "і" },
+        "upper": { "code":   204, "label": "Ì" }
+      },
         { "$": "auto_text_key", "code":  238, "label": "î" },
         { "$": "auto_text_key", "code":  301, "label": "ĭ" },
         { "$": "auto_text_key", "code":  68611, "label": "𐰃" },
@@ -330,7 +341,10 @@
         "upper": { "code":  1067, "label": "Ы" }
       },
       "relevant": [
-        { "$": "auto_text_key", "code":  953, "label": "ι" },
+        { "$": "case_selector",
+        "lower": { "code":  120484, "label": "𝚤" },
+        "upper": { "code":  1030, "label": "І" }
+      },
         { "$": "auto_text_key", "code":  1100, "label": "ь" },
         { "$": "auto_text_key", "code":  1098, "label": "ъ" },
         { "$": "auto_text_key", "code":  68611, "label": "𐰃" },
