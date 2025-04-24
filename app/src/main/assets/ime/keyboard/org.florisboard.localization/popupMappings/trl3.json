@@ -167,8 +167,8 @@
     "ğ": {
       "main": { "$": "auto_text_key", "code":  1171, "label": "ғ" },
       "relevant": [
-        { "$": "auto_text_key", "code":  501, "label": "ǵ" },
         { "$": "auto_text_key", "code":  487, "label": "ǧ" },
+        { "$": "auto_text_key", "code":  501, "label": "ǵ" },
         { "$": "auto_text_key", "code":  419, "label": "ƣ" },
         { "$": "auto_text_key", "code":  1173, "label": "ҕ" }
       ]
