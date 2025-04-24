@@ -252,8 +252,8 @@
       "main": { "$": "auto_text_key", "code":  1074, "label": "в" },
       "relevant": [
         { "$": "case_selector",
-        "lower": { "code":  12271, "label": "𝗏" },
-        "upper": { "code":   12245, "label": "𝖵" }
+        "lower": { "code":  120271, "label": "𝗏" },
+        "upper": { "code":   120245, "label": "𝖵" }
         }
       ]
     },   
