@@ -426,9 +426,13 @@
         "upper": { "code":   1048, "label": "И" }
       },
       "relevant": [
+         { "$": "case_selector",
+        "lower": { "code":  120258, "label": "𝗂" },
+        "upper": { "code":   204, "label": "Ì" }
+      },
         { "$": "case_selector",
         "lower": { "code":  1110, "label": "і" },
-        "upper": { "code":   204, "label": "Ì" }
+        "upper": { "code":   205, "label": "Í" }
       },
         { "$": "auto_text_key", "code":  238, "label": "î" },
         { "$": "auto_text_key", "code":  301, "label": "ĭ" },
@@ -473,8 +477,8 @@
       "main": { "$": "auto_text_key", "code":  1089, "label": "с" },
       "relevant": [
         { "$": "case_selector",
-        "lower": { "code":  120252, "label": "𝖼" },
-        "upper": { "code":  120226, "label": "𝖢" }
+        "lower": { "code":  120268, "label": "𝗌" },
+        "upper": { "code":  120242, "label": "𝖲" }
       },
         { "$": "auto_text_key", "code":  1109, "label": "ѕ" },
         { "$": "auto_text_key", "code":  68669, "label": "𐰽" },
