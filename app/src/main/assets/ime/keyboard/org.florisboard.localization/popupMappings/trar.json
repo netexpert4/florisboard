@@ -268,10 +268,10 @@
    "ئ": {
       "main": { "code": 65164, "label": "ﺌ" },
       "relevant": [
-        { "code": 1744, "label": "ې" },
-       { "code": 65161, "label": "ﺉ" },
+        { "code": 65161, "label": "ﺉ" },
         { "code": 65162, "label": "ﺊ" },
-        { "code": 65163, "label": "ﺋ" }  
+        { "code": 65163, "label": "ﺋ" }, 
+        { "code": 1744, "label": "ې" }
       ]
     },
      "ؽ": {
@@ -283,9 +283,9 @@
    "ؤ": {
       "main": { "code": -255, "label": "وْ" },
       "relevant": [
-       { "code": 65157, "label": "ﺅ" },
-       { "code": 65158, "label": "ﺆ" },
-       { "code": 1737, "label": "ۉ" }
+       { "code": 1737, "label": "ۉ" },
+        { "code": 65157, "label": "ﺅ" },
+       { "code": 65158, "label": "ﺆ" }    
       ]
     },
     "ۆ": {
