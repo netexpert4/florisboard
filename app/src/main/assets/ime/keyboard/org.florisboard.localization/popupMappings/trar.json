@@ -268,12 +268,18 @@
     "ؤ": {
       "main": { "code": -255, "label": "وْ" },
       "relevant": [
+       { "code": 65157, "label": "ﺅ" },
+       { "code": 65158, "label": "ﺆ" },
        { "code": 1737, "label": "ۉ" }
       ]
     },
     "ۆ": {
       "main": { "code": 1735, "label": "ۇ"},
       "relevant": [
+        { "code": 64471, "label": "ﯗ" },
+        { "code": 64472, "label": "ﯘ" },
+        { "code": 64473, "label": "ﯙ" },
+        { "code": 64474, "label": "ﯚ" },
        { "code": 1736, "label": "ۈ" }
       ]
     },
