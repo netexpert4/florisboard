@@ -218,8 +218,7 @@
         { "code": 64402, "label": "ﮒ" },
         { "code": 64403, "label": "ﮓ" },
         { "code": 64404, "label": "ﮔ" },
-        { "code": 1713, "label": "ڱ" },
-        { "code": 2224, "label": "ࢰ" }
+        { "code": 1713, "label": "ڱ" }
       ]
     },
     "ظ": {
@@ -306,8 +305,7 @@
       "relevant": [
         { "code": 65261, "label": "ﻭ" },
         { "code": 1739, "label": "ۋ" },
-        { "code": 1733, "label": "ۅ" },
-        { "code": 2225, "label": "ࢱ" }
+        { "code": 1733, "label": "ۅ" }
      ]
     },
     "half_space": {
