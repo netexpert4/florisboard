@@ -190,6 +190,7 @@
         { "code": 65253, "label": "ﻥ" },
         { "code": 65254, "label": "ﻦ" },
         { "code": 65255, "label": "ﻧ" },
+        { "code": 1722, "label": "ں" },
         { "code": 1709, "label": "ڭ"}
       ]
     },
@@ -217,7 +218,8 @@
         { "code": 64402, "label": "ﮒ" },
         { "code": 64403, "label": "ﮓ" },
         { "code": 64404, "label": "ﮔ" },
-        { "code": 1713, "label": "ڱ" }
+        { "code": 1713, "label": "ڱ" },
+        { "code": 2224, "label": "ࢰ" }
       ]
     },
     "ظ": {
@@ -249,7 +251,8 @@
       "main": { "code": 65198, "label": "ﺮ"},
       "relevant": [
         { "code": 65197, "label": "ﺭ" },
-        { "code": 1883, "label": "ݛ" }
+        { "code": 1883, "label": "ݛ" }و
+        { "code": 2218, "label": "ࢪ" }
       ]
     }, 
      "ذ": {
@@ -274,12 +277,13 @@
         { "code": 1744, "label": "ې" }
       ]
     },
-    "ؽ": {
+     "ؽ": {
+      "main": { "code": 1742, "label": "ێ" }
       "relevant": [
-        { "code": 1609, "label": "ى" }
+        { "code": 1609, "label": "ى" },
       ]
-    },
-    "ؤ": {
+    }, 
+   "ؤ": {
       "main": { "code": -255, "label": "وْ" },
       "relevant": [
        { "code": 65157, "label": "ﺅ" },
@@ -302,7 +306,8 @@
       "relevant": [
         { "code": 65261, "label": "ﻭ" },
         { "code": 1739, "label": "ۋ" },
-        { "code": 1733, "label": "ۅ" }
+        { "code": 1733, "label": "ۅ" },
+        { "code": 2225, "label": "ࢱ" }
      ]
     },
     "half_space": {
