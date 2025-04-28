@@ -22,7 +22,8 @@
       "relevant": [
         { "code": 65177, "label": "ﺙ" },
         { "code": 65178, "label": "ﺚ" },
-        { "code": 65179, "label": "ﺛ" }
+        { "code": 65179, "label": "ﺛ" },
+        { "code": 1661, "label": "ٽ" }
       ]
     },
      "ق": {
@@ -102,7 +103,7 @@
         { "code": 64378, "label": "ﭺ" },
         { "code": 64379, "label": "ﭻ" },
         { "code": 64380, "label": "ﭼ" },
-        { "code": 1671, "label": "ڇ" }
+        { "code": 1880, "label": "ݘ" }
       ]
     },
     "ش": {
@@ -130,7 +131,8 @@
         { "code": 64510, "label": "ﯾ" },
         { "code": 1610, "label": "ي" },
         { "code": 1746, "label": "ے" },
-        { "code": 1741, "label": "ۍ" }
+        { "code": 1741, "label": "ۍ" },
+        { "code": 1872, "label": "ݐ" }
       ]
     },
     "پ": {
@@ -139,7 +141,8 @@
         { "code": 64342, "label": "ﭖ" },
         { "code": 64343, "label": "ﭗ" },
         { "code": 64344, "label": "ﭘ" },
-        { "code": 1725, "label": "ڽ" }
+        { "code": 1725, "label": "ڽ" },
+        { "code": 1874, "label": "ݒ" }
       ]
     },
      "ب": {
@@ -155,7 +158,8 @@
       "relevant": [
         { "code": 65245, "label": "ﻝ" },
         { "code": 65246, "label": "ﻞ" },
-        { "code": 65247, "label": "ﻟ" }
+        { "code": 65247, "label": "ﻟ" },
+        { "code": 1898, "label": "ݪ" }
       ]
     },
     "ا": {
@@ -244,7 +248,8 @@
    "ر": {
       "main": { "code": 65198, "label": "ﺮ"},
       "relevant": [
-        { "code": 65197, "label": "ﺭ" }
+        { "code": 65197, "label": "ﺭ" },
+        { "code": 1883, "label": "ݛ" }
       ]
     }, 
      "ذ": {
