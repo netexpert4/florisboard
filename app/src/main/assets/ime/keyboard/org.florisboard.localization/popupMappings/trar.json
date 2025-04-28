@@ -207,15 +207,57 @@
         { "code": 64404, "label": "ﮔ" }
       ]
     },
-   "ز": {
+    "ظ": {
+      "main": { "code": 65224, "label": "ﻈ"},
       "relevant": [
-        { "code": 1688, "label": "ژ" }
+        { "code": 65221, "label": "ﻅ" },
+        { "code": 65222, "label": "ﻆ" },
+        { "code": 65223, "label": "ﻇ" }
       ]
     },
-    "ئ": {
+     "ط": {
+      "main": { "code": 65220, "label": "ﻄ"},
+      "relevant": [
+        { "code": 65217, "label": "ﻁ" },
+        { "code": 65218, "label": "ﻂ" },
+        { "code": 65219, "label": "ﻃ" }
+      ]
+    },
+     "ز": {
+      "main": { "code": 1688, "label": "ژ" },
+      "relevant": [
+        { "code": 64394, "label": "ﮊ" },
+        { "code": 64395, "label": "ﮋ" },
+        { "code": 65199, "label": "ﺯ" },
+        { "code": 65200, "label": "ﺰ" }
+     ]
+    },
+   "ر": {
+      "main": { "code": 65198, "label": "ﺮ"},
+      "relevant": [
+        { "code": 65197, "label": "ﺭ" }
+      ]
+    }, 
+     "ذ": {
+      "main": { "code": 65196, "label": "ﺬ"},
+      "relevant": [
+        { "code": 65195, "label": "ﺫ" }
+      ]
+    }, 
+      "د": {
+      "main": { "code": 65194, "label": "ﺪ"},
+      "relevant": [
+        { "code": 65193, "label": "ﺩ" }
+      ]
+    }, 
+   "ئ": {
       "main": { "code": 1749, "label": "ە" },
       "relevant": [
-       { "code": 1744, "label": "ې" }
+       { "code": 65161, "label": "ﺉ" },
+        { "code": 65162, "label": "ﺊ" },
+        { "code": 65164, "label": "ﺌ" },
+        { "code": 65163, "label": "ﺋ" },
+        { "code": 1744, "label": "ې" }
       ]
     },
     "ؽ": {
@@ -236,9 +278,11 @@
       ]
     },
     "و": {
-     "relevant": [
-      { "code": 1739, "label": "ۋ" }
-       ]
+      "main": { "code": 65262, "label": "ﻮ" },
+      "relevant": [
+        { "code": 65261, "label": "ﻭ" },
+        { "code": 1739, "label": "ۋ" }
+     ]
     },
     "half_space": {
       "main": { "code": 1600, "label": "ـ" },
