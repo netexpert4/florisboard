@@ -30,7 +30,8 @@
       "relevant": [
         { "code": 65237, "label": "ﻕ" },
         { "code": 65238, "label": "ﻖ" },
-        { "code": 65239, "label": "ﻗ" }
+        { "code": 65239, "label": "ﻗ" },
+        { "code": 1704, "label": "ڨ" }
       ]
     },
      "ف": {
@@ -38,7 +39,8 @@
       "relevant": [
         { "code": 65233, "label": "ﻑ" },
         { "code": 65234, "label": "ﻒ" },
-        { "code": 65235, "label": "ﻓ" }
+        { "code": 65235, "label": "ﻓ" },
+        { "code": 1703, "label": "ڧ" }
       ]
     },
      "غ": {
@@ -46,7 +48,8 @@
       "relevant": [
         { "code": 65229, "label": "ﻍ" },
         { "code": 65230, "label": "ﻎ" },
-        { "code": 65231, "label": "ﻏ" }
+        { "code": 65231, "label": "ﻏ" },
+        { "code": 1788, "label": "ۼ" }
       ]
     },
     "ع": {
@@ -98,7 +101,8 @@
       "relevant": [
         { "code": 64378, "label": "ﭺ" },
         { "code": 64379, "label": "ﭻ" },
-        { "code": 64380, "label": "ﭼ" }
+        { "code": 64380, "label": "ﭼ" },
+        { "code": 1671, "label": "ڇ" }
       ]
     },
     "ش": {
@@ -106,7 +110,8 @@
       "relevant": [
         { "code": 65205, "label": "ﺵ" },
         { "code": 65206, "label": "ﺶ" },
-        { "code": 65207, "label": "ﺷ" }
+        { "code": 65207, "label": "ﺷ" },
+        { "code": 1786, "label": "ۺ" }
       ]
     },
     "س": {
@@ -124,7 +129,8 @@
         { "code": 64509, "label": "ﯽ" },
         { "code": 64510, "label": "ﯾ" },
         { "code": 1610, "label": "ي" },
-        { "code": 1746, "label": "ے" }
+        { "code": 1746, "label": "ے" },
+        { "code": 1741, "label": "ۍ" }
       ]
     },
     "پ": {
@@ -132,7 +138,8 @@
       "relevant": [
         { "code": 64342, "label": "ﭖ" },
         { "code": 64343, "label": "ﭗ" },
-        { "code": 64344, "label": "ﭘ" }
+        { "code": 64344, "label": "ﭘ" },
+        { "code": 1725, "label": "ڽ" }
       ]
     },
      "ب": {
@@ -169,6 +176,7 @@
         { "code": 65173, "label": "ﺕ" },
         { "code": 65174, "label": "ﺖ" },
         { "code": 65175, "label": "ﺗ" },
+        { "code": 1658, "label": "ٺ" },
         { "code": 1577, "label": "ة" }
       ]
     },
@@ -204,7 +212,8 @@
       "relevant": [
         { "code": 64402, "label": "ﮒ" },
         { "code": 64403, "label": "ﮓ" },
-        { "code": 64404, "label": "ﮔ" }
+        { "code": 64404, "label": "ﮔ" },
+        { "code": 1713, "label": "ڱ" }
       ]
     },
     "ظ": {
@@ -287,7 +296,8 @@
       "main": { "code": 65262, "label": "ﻮ" },
       "relevant": [
         { "code": 65261, "label": "ﻭ" },
-        { "code": 1739, "label": "ۋ" }
+        { "code": 1739, "label": "ۋ" },
+        { "code": 1733, "label": "ۅ" }
      ]
     },
     "half_space": {
