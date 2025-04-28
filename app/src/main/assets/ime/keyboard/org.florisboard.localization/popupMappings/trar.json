@@ -1,5 +1,27 @@
 {
   "all": {
+   "ض": {
+      "main": { "code": 65216, "label": "ﻀ"},
+      "relevant": [
+        { "code": 65214, "label": "ﺾ" },
+        { "code": 65215, "label": "ﺿ" },
+        { "code": 1787, "label": "ۻ" }
+      ]
+    },
+    "ص": {
+      "main": { "code": 65212, "label": "ﺼ"},
+      "relevant": [
+        { "code": 65210, "label": "ﺺ" },
+        { "code": 65211, "label": "ﺻ" }
+      ]
+    },
+    "ث": {
+      "main": { "code": 65180, "label": "ﺜ"},
+      "relevant": [
+        { "code": 65178, "label": "ﺚ" },
+        { "code": 65179, "label": "ﺛ" }
+      ]
+    },
     "ی": {
       "main": { "code": 1610, "label": "ي" },
       "relevant": [
