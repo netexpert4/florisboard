@@ -8,6 +8,7 @@
         { "code": 8539, "label": "⅛" },
         { "code": 8529, "label": "⅑" },
         { "code": 8530, "label": "⅒" },
+        { "code":  1633, "label": "١" },
         { "code":  185, "label": "¹" },
         { "code":  189, "label": "½" },
         { "code": 8531, "label": "⅓" },
@@ -19,6 +20,7 @@
       "main": { "code":   1778, "label": "۲" },
       "relevant": [
         { "code": 8532, "label": "⅔" },
+        { "code":  1634, "label": "٢" },
         { "code":  178, "label": "²" },
         { "code": 8534, "label": "⅖" }
       ]
@@ -28,6 +30,7 @@
       "relevant": [
         { "code": 8535, "label": "⅗" },
         { "code":  190, "label": "¾" },
+        { "code":  1635, "label": "٣" },
         { "code":  179, "label": "³" },
         { "code": 8540, "label": "⅜" }
       ]
@@ -36,6 +39,7 @@
       "main": { "code":   1780, "label": "۴" },
       "relevant": [
         { "code": 8536, "label": "⅘" },
+        { "code": 1636, "label": "٤" },
         { "code": 8308, "label": "⁴" }
       ]
     } },
@@ -43,6 +47,7 @@
       "main": { "code":   1781, "label": "۵" },
       "relevant": [
         { "code": 8538, "label": "⅚" },
+        { "code": 1637, "label": "٥" },
         { "code": 8309, "label": "⁵" },
         { "code": 8541, "label": "⅝" }
       ]
@@ -50,6 +55,7 @@
     { "code": 54, "label": "6", "type": "numeric", "popup": {
       "main": { "code":   1782, "label": "۶" },
       "relevant": [
+        { "code": 1638, "label": "٦" },
         { "code": 8310, "label": "⁶" }
       ]
     } },
@@ -57,18 +63,21 @@
       "main": { "code":   1783, "label": "۷" },
       "relevant": [
         { "code": 8542, "label": "⅞" },
+        { "code": 1639, "label": "٧" },
         { "code": 8311, "label": "⁷" }
       ]
     } },
     { "code": 56, "label": "8", "type": "numeric", "popup": {
       "main": { "code":   1784, "label": "۸" },
       "relevant": [
+        { "code": 1640, "label": "٨" },
         { "code": 8312, "label": "⁸" }
       ]
     } },
     { "code": 57, "label": "9", "type": "numeric", "popup": {
       "main": { "code":   1785, "label": "۹" },
       "relevant": [
+        { "code": 1641, "label": "٩" },
         { "code": 8313, "label": "⁹" }
       ]
     } },
@@ -77,6 +86,7 @@
       "relevant": [
         { "code": 8319, "label": "ⁿ" },
         { "code": 8709, "label": "∅" },
+        { "code": 1632, "label": "٠" },
         { "code": 8304, "label": "⁰" }
       ]
     } }
