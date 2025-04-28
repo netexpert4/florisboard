@@ -77,15 +77,86 @@
         { "code": 65191, "label": "ﺧ" }
       ]
     },
-    "ی": {
-      "main": { "code": 1610, "label": "ي" },
+    "ح": {
+      "main": { "code": 65188, "label": "ﺤ"},
       "relevant": [
+        { "code": 65185, "label": "ﺡ" },
+        { "code": 65186, "label": "ﺢ" },
+        { "code": 65187, "label": "ﺣ" }
+      ]
+    },
+    "ج": {
+      "main": { "code": 65184, "label": "ﺠ"},
+      "relevant": [
+        { "code": 65181, "label": "ﺝ" },
+        { "code": 65182, "label": "ﺞ" },
+        { "code": 65183, "label": "ﺟ" }
+      ]
+    },
+    "چ": {
+      "main": { "code": 64381, "label": "ﭽ"},
+      "relevant": [
+        { "code": 64378, "label": "ﭺ" },
+        { "code": 64379, "label": "ﭻ" },
+        { "code": 64380, "label": "ﭼ" }
+      ]
+    },
+    "ش": {
+      "main": { "code": 65208, "label": "ﺸ"},
+      "relevant": [
+        { "code": 65205, "label": "ﺵ" },
+        { "code": 65206, "label": "ﺶ" },
+        { "code": 65207, "label": "ﺷ" }
+      ]
+    },
+    "س": {
+      "main": { "code": 65204, "label": "ﺴ"},
+      "relevant": [
+        { "code": 65201, "label": "ﺱ" },
+        { "code": 65202, "label": "ﺲ" },
+        { "code": 65203, "label": "ﺳ" }
+      ]
+    },
+    "ی": {
+      "main": { "code": 64511, "label": "ﯿ" },
+      "relevant": [
+        { "code": 64508, "label": "ﯼ" },
+        { "code": 64509, "label": "ﯽ" },
+        { "code": 64510, "label": "ﯾ" },
+        { "code": 1610, "label": "ي" },
         { "code": 1746, "label": "ے" }
+      ]
+    },
+    "پ": {
+      "main": { "code": 64345, "label": "ﭙ"},
+      "relevant": [
+        { "code": 64342, "label": "ﭖ" },
+        { "code": 64343, "label": "ﭗ" },
+        { "code": 64344, "label": "ﭘ" }
+      ]
+    },
+     "ب": {
+      "main": { "code": 65170, "label": "ﺒ"},
+      "relevant": [
+        { "code": 65167, "label": "ﺏ" },
+        { "code": 65168, "label": "ﺐ" },
+        { "code": 65169, "label": "ﺑ" }
+      ]
+    },
+      "ل": {
+      "main": { "code": 65248, "label": "ﻠ"},
+      "relevant": [
+        { "code": 65245, "label": "ﻝ" },
+        { "code": 65246, "label": "ﻞ" },
+        { "code": 65247, "label": "ﻟ" }
       ]
     },
     "ا": {
       "main": { "code": 1570, "label": "آ"},
       "relevant": [
+        { "code": 65165, "label": "ﺍ" },
+        { "code": 65166, "label": "ﺎ" },
+        { "code": 65153, "label": "ﺁ" },
         { "code": 1649, "label": "ٱ" },
         { "code": 1569, "label": "ء" },
         { "code": 1571, "label": "أ" },
@@ -93,22 +164,50 @@
       ]
     },
    "ت": {
+      "main": { "code": 65176, "label": "ﺘ"},
       "relevant": [
+        { "code": 65173, "label": "ﺕ" },
+        { "code": 65174, "label": "ﺖ" },
+        { "code": 65175, "label": "ﺗ" },
         { "code": 1577, "label": "ة" }
       ]
     },
-    "ک": {
-      "relevant": [
-        { "code": 1706, "label": "ڪ"},
-        { "code": 1603, "label": "ك" }
-    ]
-    },
     "ن": {
+      "main": { "code": 65256, "label": "ﻨ"},
       "relevant": [
+        { "code": 65253, "label": "ﻥ" },
+        { "code": 65254, "label": "ﻦ" },
+        { "code": 65255, "label": "ﻧ" },
         { "code": 1709, "label": "ڭ"}
-    ]
+      ]
     },
-    "ز": {
+    "م": {
+      "main": { "code": 65252, "label": "ﻤ"},
+      "relevant": [
+        { "code": 65249, "label": "ﻡ" },
+        { "code": 65250, "label": "ﻢ" },
+        { "code": 65251, "label": "ﻣ" }
+      ]
+    },
+     "ک": {
+      "main": { "code": 64401, "label": "ﮑ"},
+      "relevant": [
+        { "code": 64398, "label": "ﮎ" },
+        { "code": 64399, "label": "ﮏ" },
+        { "code": 64400, "label": "ﮐ" },
+        { "code": 1603, "label": "ك" },
+        { "code": 1706, "label": "ڪ"}
+      ]
+    },
+    "گ": {
+      "main": { "code": 64405, "label": "ﮕ"},
+      "relevant": [
+        { "code": 64402, "label": "ﮒ" },
+        { "code": 64403, "label": "ﮓ" },
+        { "code": 64404, "label": "ﮔ" }
+      ]
+    },
+   "ز": {
       "relevant": [
         { "code": 1688, "label": "ژ" }
       ]
