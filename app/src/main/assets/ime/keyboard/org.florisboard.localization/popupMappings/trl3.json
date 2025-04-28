@@ -315,7 +315,7 @@
         "lower": { "code":  120252, "label": "𝖼" },
         "upper": { "code":   120226, "label": "𝖢" }
         },
-        { "$": "auto_text_key", "code":  1089, "label": "с" },
+        { "$": "auto_text_key", "code":  1010, "label": "ϲ" },
         { "$": "auto_text_key", "code":  1228, "label": "ӌ" },
         { "$": "auto_text_key", "code":  1175, "label": "җ" }
       ]
