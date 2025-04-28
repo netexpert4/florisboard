@@ -3,6 +3,7 @@
    "ض": {
       "main": { "code": 65216, "label": "ﻀ"},
       "relevant": [
+        { "code": 65213, "label": "ﺽ" },
         { "code": 65214, "label": "ﺾ" },
         { "code": 65215, "label": "ﺿ" },
         { "code": 1787, "label": "ۻ" }
@@ -11,6 +12,7 @@
     "ص": {
       "main": { "code": 65212, "label": "ﺼ"},
       "relevant": [
+        { "code": 65209, "label": "ﺹ" },
         { "code": 65210, "label": "ﺺ" },
         { "code": 65211, "label": "ﺻ" }
       ]
@@ -18,8 +20,61 @@
     "ث": {
       "main": { "code": 65180, "label": "ﺜ"},
       "relevant": [
+        { "code": 65177, "label": "ﺙ" },
         { "code": 65178, "label": "ﺚ" },
         { "code": 65179, "label": "ﺛ" }
+      ]
+    },
+     "ق": {
+      "main": { "code": 65240, "label": "ﻘ"},
+      "relevant": [
+        { "code": 65237, "label": "ﻕ" },
+        { "code": 65238, "label": "ﻖ" },
+        { "code": 65239, "label": "ﻗ" }
+      ]
+    },
+     "ف": {
+      "main": { "code": 65236, "label": "ﻔ"},
+      "relevant": [
+        { "code": 65233, "label": "ﻑ" },
+        { "code": 65234, "label": "ﻒ" },
+        { "code": 65235, "label": "ﻓ" }
+      ]
+    },
+     "غ": {
+      "main": { "code": 65232, "label": "ﻐ"},
+      "relevant": [
+        { "code": 65229, "label": "ﻍ" },
+        { "code": 65230, "label": "ﻎ" },
+        { "code": 65231, "label": "ﻏ" }
+      ]
+    },
+    "ع": {
+      "main": { "code": 65228, "label": "ﻌ"},
+      "relevant": [
+        { "code": 65225, "label": "ﻉ" },
+        { "code": 65226, "label": "ﻊ" },
+        { "code": 65227, "label": "ﻋ" }
+      ]
+    },
+     "ه": {
+      "main": { "code": 1749, "label": "ە" },
+      "relevant": [
+        { "code": 65257, "label": "ﻩ" },
+        { "code": 65258, "label": "ﻪ" },
+        { "code": 65260, "label": "ﻬ" },
+        { "code": 65259, "label": "ﻫ" },
+        { "code": 1729, "label": "ہ" },
+        { "code": 1728, "label": "ۀ" },
+        { "code": 1726, "label": "ھ" }
+      ]
+    },
+    "خ": {
+      "main": { "code": 65192, "label": "ﺨ"},
+      "relevant": [
+        { "code": 65189, "label": "ﺥ" },
+        { "code": 65190, "label": "ﺦ" },
+        { "code": 65191, "label": "ﺧ" }
       ]
     },
     "ی": {
@@ -37,15 +92,7 @@
         { "code": 1573, "label": "إ" }
       ]
     },
-    "ه": {
-      "main": { "code": 1749, "label": "ە" },
-      "relevant": [
-        { "code": 1729, "label": "ہ" },
-        { "code": 1728, "label": "ۀ" },
-        { "code": 1726, "label": "ھ" }
-      ]
-    },
-    "ت": {
+   "ت": {
       "relevant": [
         { "code": 1577, "label": "ة" }
       ]
