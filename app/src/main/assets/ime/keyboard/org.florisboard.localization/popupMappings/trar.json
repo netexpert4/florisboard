@@ -14,7 +14,8 @@
       "relevant": [
         { "code": 65209, "label": "ﺹ" },
         { "code": 65210, "label": "ﺺ" },
-        { "code": 65211, "label": "ﺻ" }
+        { "code": 65211, "label": "ﺻ" },
+        { "code": 1693, "label": "ڝ" }
       ]
     },
     "ث": {
@@ -120,7 +121,8 @@
       "relevant": [
         { "code": 65201, "label": "ﺱ" },
         { "code": 65202, "label": "ﺲ" },
-        { "code": 65203, "label": "ﺳ" }
+        { "code": 65203, "label": "ﺳ" },
+        { "code": 1917, "label": "ݽ" }
       ]
     },
     "ی": {
@@ -128,7 +130,7 @@
       "relevant": [
         { "code": 1746, "label": "ے" },
         { "code": 1610, "label": "ي" },
-        { "code": 1872, "label": "ݐ" },
+        { "code": 1744, "label": "ې" },
         { "code": 1741, "label": "ۍ" },
         { "code": 64508, "label": "ﯼ" },
         { "code": 64509, "label": "ﯽ" },
