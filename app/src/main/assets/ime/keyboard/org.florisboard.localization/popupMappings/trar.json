@@ -344,7 +344,6 @@
           "rtl": { "code":   40, "label": ")" }
         },
         { "code":   43, "label": "+" },
-        
         { "code":   44, "label": "," },
         { "code":   39, "label": "'" },
         { "code":   47, "label": "/" },
