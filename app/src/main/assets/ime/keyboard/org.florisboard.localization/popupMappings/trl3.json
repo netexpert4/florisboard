@@ -53,7 +53,7 @@
         "upper": { "code":  120241, "label": "𝖱" }
       }, 
       { "$": "case_selector",
-        "lower": { "code":  43847, "label": "ꭇ" },
+        "lower": { "code":  638, "label": "ɾ" },
         "upper": { "code":  588, "label": "Ɍ" }
       },   
       { "$": "auto_text_key", "code":  68666, "label": "𐰺" },
