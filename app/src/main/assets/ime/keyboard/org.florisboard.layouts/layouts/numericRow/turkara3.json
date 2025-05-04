@@ -1,15 +1,15 @@
-
 [
   [
     { "code": 49, "label": "1", "type": "numeric", "popup": {
       "main": { "code":   1777, "label": "۱" },
       "relevant": [
+        { "code":  185, "label": "¹" },
         { "code": 8537, "label": "⅙" },
         { "code": 8528, "label": "⅐" },
         { "code": 8539, "label": "⅛" },
         { "code": 8529, "label": "⅑" },
         { "code": 8530, "label": "⅒" },
-        { "code":  185, "label": "¹" },
+        { "code":  1633, "label": "١" },
         { "code":  189, "label": "½" },
         { "code": 8531, "label": "⅓" },
         { "code":  188, "label": "¼" },
@@ -19,25 +19,28 @@
     { "code": 50, "label": "2", "type": "numeric", "popup": {
       "main": { "code":   1778, "label": "۲" },
       "relevant": [
-        { "code": 8532, "label": "⅔" },
         { "code":  178, "label": "²" },
+        { "code":  1634, "label": "٢" },
+        { "code": 8532, "label": "⅔" },
         { "code": 8534, "label": "⅖" }
       ]
     } },
     { "code": 51, "label": "3", "type": "numeric", "popup": {
       "main": { "code":   1779, "label": "۳" },
       "relevant": [
-        { "code": 8535, "label": "⅗" },
         { "code":  190, "label": "¾" },
+        { "code": 8535, "label": "⅗" },
+        { "code": 8540, "label": "⅜" },
         { "code":  179, "label": "³" },
-        { "code": 8540, "label": "⅜" }
+        { "code":  1635, "label": "٣" }  
       ]
     } },
     { "code": 52, "label": "4", "type": "numeric", "popup": {
       "main": { "code":   1780, "label": "۴" },
       "relevant": [
-        { "code": 8536, "label": "⅘" },
-        { "code": 8308, "label": "⁴" }
+        { "code": 8308, "label": "⁴" },
+        { "code": 1636, "label": "٤" },
+        { "code": 8536, "label": "⅘" }
       ]
     } },
     { "code": 53, "label": "5", "type": "numeric", "popup": {
@@ -45,32 +48,37 @@
       "relevant": [
         { "code": 8538, "label": "⅚" },
         { "code": 8309, "label": "⁵" },
+        { "code": 1637, "label": "٥" },
         { "code": 8541, "label": "⅝" }
       ]
     } },
     { "code": 54, "label": "6", "type": "numeric", "popup": {
       "main": { "code":   1782, "label": "۶" },
       "relevant": [
-        { "code": 8310, "label": "⁶" }
+        { "code": 8310, "label": "⁶" },
+        { "code": 1638, "label": "٦" } 
       ]
     } },
     { "code": 55, "label": "7", "type": "numeric", "popup": {
       "main": { "code":   1783, "label": "۷" },
       "relevant": [
         { "code": 8542, "label": "⅞" },
-        { "code": 8311, "label": "⁷" }
+        { "code": 8311, "label": "⁷" },
+        { "code": 1639, "label": "٧" }
       ]
     } },
     { "code": 56, "label": "8", "type": "numeric", "popup": {
       "main": { "code":   1784, "label": "۸" },
       "relevant": [
-        { "code": 8312, "label": "⁸" }
+        { "code": 8312, "label": "⁸" },
+        { "code": 1640, "label": "٨" }
       ]
     } },
     { "code": 57, "label": "9", "type": "numeric", "popup": {
       "main": { "code":   1785, "label": "۹" },
       "relevant": [
-        { "code": 8313, "label": "⁹" }
+        { "code": 8313, "label": "⁹" },
+        { "code": 1641, "label": "٩" }  
       ]
     } },
     { "code": 48, "label": "0", "type": "numeric", "popup": {
@@ -78,7 +86,8 @@
       "relevant": [
         { "code": 8319, "label": "ⁿ" },
         { "code": 8709, "label": "∅" },
-        { "code": 8304, "label": "⁰" }
+        { "code": 8304, "label": "⁰" },
+        { "code": 1632, "label": "٠" }  
       ]
     } }
   ]
