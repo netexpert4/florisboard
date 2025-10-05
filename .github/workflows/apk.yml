@@ -1,4 +1,4 @@
-name: APK
+name: Build debug APK
 
 on:
   workflow_dispatch:
@@ -24,32 +24,38 @@ jobs:
         with:
           api-level: 33
           ndk-version: 25.2.9519653
-          cmake-version: 4.0.2
+          cmake-version: 3.22.1       # Gradle ile uyumlu
           components: build-tools;platform-tools;platforms;cmake;ndk
 
-      # 4️⃣ Gradle kurulumu
+      # 4️⃣ CMake ve NDK dizinlerini PATH’e ekle
+      - name: Add CMake and NDK to PATH
+        run: |
+          echo "$ANDROID_SDK_ROOT/cmake/3.22.1/bin" >> $GITHUB_PATH
+          echo "$ANDROID_SDK_ROOT/ndk/25.2.9519653" >> $GITHUB_PATH
+
+      # 5️⃣ Gradle kurulumu
       - uses: gradle/actions/setup-gradle@v3
 
-      # 5️⃣ Gradlew dosyasına execute izni ver
+      # 6️⃣ Gradlew dosyasına execute izni ver
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
 
-      # 6️⃣ Temizle ve debug APK build et
+      # 7️⃣ Temizle ve debug APK build et
       - name: Clean and Build APK
-        run: ./gradlew clean assembleDebug --no-daemon
+        run: ./gradlew clean assembleDebug --no-daemon --stacktrace
 
-      # 7️⃣ Üretilen APK dosyalarını listeler (kontrol için)
+      # 8️⃣ Üretilen APK dosyalarını listeler
       - name: List generated APKs
         run: ls app/build/outputs/apk/debug/
 
-      # 8️⃣ Üretilen APK’yı yükle
+      # 9️⃣ Üretilen APK’yı yükle
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
           name: FlorisBoard-debug
           path: app/build/outputs/apk/debug/*.apk
 
-      # 9️⃣ Eğer build başarısız olursa raporları yükle
+      # 🔟 Eğer build başarısız olursa raporları yükle
       - name: Archive reports for failed job
         if: ${{ failure() }}
         uses: actions/upload-artifact@v4
