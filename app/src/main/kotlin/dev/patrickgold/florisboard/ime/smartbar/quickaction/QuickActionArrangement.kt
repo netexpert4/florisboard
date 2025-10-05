@@ -20,7 +20,6 @@ import dev.patrickgold.florisboard.ime.text.keyboard.TextKeyData
 import dev.patrickgold.florisboard.lib.io.DefaultJsonConfig
 import dev.patrickgold.jetpref.datastore.model.PreferenceSerializer
 import kotlinx.serialization.Serializable
-import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.modules.SerializersModule
 import kotlinx.serialization.modules.plus
@@ -47,8 +46,22 @@ data class QuickActionArrangement(
     val dynamicActions: List<QuickAction>,
     val hiddenActions: List<QuickAction>,
 ) {
-    fun contains(action: QuickAction): Boolean {
+    operator fun contains(action: QuickAction): Boolean {
         return stickyAction == action || dynamicActions.contains(action) || hiddenActions.contains(action)
+    }
+
+    fun distinct(): QuickActionArrangement {
+        val distinctSet = mutableSetOf<QuickAction>()
+        if (stickyAction != null) {
+            distinctSet.add(stickyAction)
+        }
+        val distinctDynamicActions = dynamicActions.filter { distinctSet.add(it) }
+        val distinctHiddenActions = hiddenActions.filter { distinctSet.add(it) }
+        return QuickActionArrangement(
+            stickyAction = stickyAction,
+            dynamicActions = distinctDynamicActions,
+            hiddenActions = distinctHiddenActions,
+        )
     }
 
     companion object {
@@ -72,6 +85,8 @@ data class QuickActionArrangement(
                 QuickAction.InsertKey(TextKeyData.CLIPBOARD_CUT),
                 QuickAction.InsertKey(TextKeyData.CLIPBOARD_PASTE),
                 QuickAction.InsertKey(TextKeyData.CLIPBOARD_SELECT_ALL),
+                QuickAction.InsertKey(TextKeyData.LANGUAGE_SWITCH),
+                QuickAction.InsertKey(TextKeyData.FORWARD_DELETE),
             ),
             hiddenActions = listOf(
             ),

@@ -30,7 +30,7 @@ import androidx.compose.material.icons.automirrored.outlined.Backspace
 import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.ContentCopy
 import androidx.compose.material.icons.filled.ContentCut
-import androidx.compose.material.icons.filled.ContentPaste
+import androidx.compose.material.icons.filled.ContentPasteGo
 import androidx.compose.material.icons.filled.DeleteSweep
 import androidx.compose.material.icons.filled.Done
 import androidx.compose.material.icons.filled.FontDownload
@@ -55,7 +55,8 @@ import dev.patrickgold.florisboard.ime.input.InputShiftState
 import dev.patrickgold.florisboard.ime.text.key.KeyCode
 import dev.patrickgold.florisboard.ime.text.key.KeyType
 import dev.patrickgold.florisboard.lib.FlorisLocale
-import dev.patrickgold.jetpref.datastore.ui.vectorResource
+import dev.patrickgold.florisboard.lib.compose.vectorResource
+import org.florisboard.lib.compose.icons.ForwardDelete
 
 interface ComputingEvaluator {
     val version: Int
@@ -197,7 +198,7 @@ fun ComputingEvaluator.computeImageVector(data: KeyData): ImageVector? {
             Icons.Default.ContentCut
         }
         KeyCode.CLIPBOARD_PASTE -> {
-            Icons.Default.ContentPaste
+            Icons.Default.ContentPasteGo
         }
         KeyCode.CLIPBOARD_SELECT_ALL -> {
             Icons.Default.SelectAll
@@ -233,6 +234,9 @@ fun ComputingEvaluator.computeImageVector(data: KeyData): ImageVector? {
                     ImeOptions.Action.UNSPECIFIED -> Icons.AutoMirrored.Filled.KeyboardReturn
                 }
             }
+        }
+        KeyCode.FORWARD_DELETE -> {
+            Icons.AutoMirrored.Default.ForwardDelete
         }
         KeyCode.IME_UI_MODE_MEDIA -> {
             Icons.Default.SentimentSatisfiedAlt

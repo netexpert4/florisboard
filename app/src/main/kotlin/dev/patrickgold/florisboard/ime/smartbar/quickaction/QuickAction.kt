@@ -25,9 +25,9 @@ import dev.patrickgold.florisboard.ime.keyboard.KeyData
 import dev.patrickgold.florisboard.ime.text.key.KeyCode
 import dev.patrickgold.florisboard.ime.text.keyboard.TextKeyData
 import dev.patrickgold.florisboard.keyboardManager
-import dev.patrickgold.florisboard.lib.compose.stringRes
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
+import org.florisboard.lib.compose.stringRes
 
 @Serializable
 sealed class QuickAction {
@@ -87,8 +87,10 @@ fun QuickAction.computeDisplayName(evaluator: ComputingEvaluator): String {
             KeyCode.CLIPBOARD_CUT -> R.string.quick_action__clipboard_cut
             KeyCode.CLIPBOARD_PASTE -> R.string.quick_action__clipboard_paste
             KeyCode.CLIPBOARD_SELECT_ALL -> R.string.quick_action__clipboard_select_all
+            KeyCode.FORWARD_DELETE -> R.string.quick_action__forward_delete
             KeyCode.IME_UI_MODE_CLIPBOARD -> R.string.quick_action__ime_ui_mode_clipboard
             KeyCode.IME_UI_MODE_MEDIA -> R.string.quick_action__ime_ui_mode_media
+            KeyCode.LANGUAGE_SWITCH -> R.string.quick_action__language_switch
             KeyCode.SETTINGS -> R.string.quick_action__settings
             KeyCode.UNDO -> R.string.quick_action__undo
             KeyCode.REDO -> R.string.quick_action__redo
@@ -125,6 +127,7 @@ fun QuickAction.computeTooltip(evaluator: ComputingEvaluator): String {
             KeyCode.CLIPBOARD_SELECT_ALL -> R.string.quick_action__clipboard_select_all__tooltip
             KeyCode.IME_UI_MODE_CLIPBOARD -> R.string.quick_action__ime_ui_mode_clipboard__tooltip
             KeyCode.IME_UI_MODE_MEDIA -> R.string.quick_action__ime_ui_mode_media__tooltip
+            KeyCode.LANGUAGE_SWITCH -> R.string.quick_action__language_switch__tooltip
             KeyCode.SETTINGS -> R.string.quick_action__settings__tooltip
             KeyCode.UNDO -> R.string.quick_action__undo__tooltip
             KeyCode.REDO -> R.string.quick_action__redo__tooltip

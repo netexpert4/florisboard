@@ -16,8 +16,12 @@
 
 package org.florisboard.lib.color
 
+import android.content.Context
 import androidx.compose.material3.ColorScheme
+import androidx.compose.runtime.Immutable
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.isUnspecified
+import org.florisboard.lib.android.AndroidVersion
 import org.florisboard.lib.color.schemes.amberDarkScheme
 import org.florisboard.lib.color.schemes.amberLightScheme
 import org.florisboard.lib.color.schemes.blueDarkScheme
@@ -61,9 +65,9 @@ import org.florisboard.lib.color.schemes.yellowLightScheme
 
 val DEFAULT_GREEN = Color(0xFF4CAF50)
 
+@Immutable
 data class ColorMappings(val light: ColorScheme, val dark: ColorScheme) {
     companion object {
-
         val default = ColorMappings(florisDefaultKeyboardLightScheme, florisDefaultKeyboardDarkScheme)
         private val red = ColorMappings(redLightScheme, redDarkScheme)
         private val pink = ColorMappings(pinkLightScheme, pinkDarkScheme)
@@ -108,7 +112,7 @@ data class ColorMappings(val light: ColorScheme, val dark: ColorScheme) {
 
         val colors = schemes.keys.toTypedArray()
 
-        fun getColorSchemeOrDefault(
+        private fun getColorSchemeOrDefault(
             color: Color,
             isDark: Boolean,
             settings: Boolean = false,
@@ -130,6 +134,22 @@ data class ColorMappings(val light: ColorScheme, val dark: ColorScheme) {
                         else -> it.light
                     }
                 }
+        }
+
+        fun dynamicLightColorScheme(context: Context, accentColor: Color): ColorScheme {
+            return if (AndroidVersion.ATLEAST_API31_S && accentColor.isUnspecified) {
+                androidx.compose.material3.dynamicLightColorScheme(context)
+            } else {
+                getColorSchemeOrDefault(color = accentColor, false)
+            }
+        }
+
+        fun dynamicDarkColorScheme(context: Context, accentColor: Color): ColorScheme {
+            return if (AndroidVersion.ATLEAST_API31_S && accentColor.isUnspecified) {
+                androidx.compose.material3.dynamicDarkColorScheme(context)
+            } else {
+                ColorMappings.getColorSchemeOrDefault(color = accentColor, true)
+            }
         }
     }
 }
