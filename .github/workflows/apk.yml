@@ -1,4 +1,4 @@
-name: Build APK
+name: Build debug APK
 
 on:
   workflow_dispatch:
@@ -24,7 +24,7 @@ jobs:
         with:
           api-level: 33
           ndk-version: 25.2.9519653
-          cmake-version: 3.22.1       # Gradle ile uyumlu
+          cmake-version: 3.22.1
           components: build-tools;platform-tools;platforms;cmake;ndk
 
       # 4️⃣ CMake ve NDK dizinlerini PATH’e ekle
@@ -40,7 +40,7 @@ jobs:
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
 
-      # 7️⃣ Temizle ve debug APK build et
+      # 7️⃣ Clean ve assembleDebug (stacktrace ile)
       - name: Clean and Build APK
         run: ./gradlew clean assembleDebug --no-daemon --stacktrace
 
@@ -48,7 +48,7 @@ jobs:
       - name: List generated APKs
         run: ls app/build/outputs/apk/debug/
 
-      # 9️⃣ Üretilen APK’yı yükle
+      # 9️⃣ APK’yı artifact olarak yükle
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
