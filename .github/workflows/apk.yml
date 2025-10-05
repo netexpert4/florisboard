@@ -1,0 +1,58 @@
+name: Build debug APK
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1️⃣ Repo'yu checkout et
+      - uses: actions/checkout@v4
+
+      # 2️⃣ JDK 17 kur
+      - name: Set up JDK
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+
+      # 3️⃣ Android SDK, NDK ve CMake kur
+      - name: Set up Android SDK, NDK & CMake
+        uses: android-actions/setup-android@v2
+        with:
+          api-level: 33
+          ndk-version: 25.2.9519653
+          cmake-version: 4.0.2
+          components: build-tools;platform-tools;platforms;cmake;ndk
+
+      # 4️⃣ Gradle kurulumu
+      - uses: gradle/actions/setup-gradle@v3
+
+      # 5️⃣ Gradlew dosyasına execute izni ver
+      - name: Grant execute permission for gradlew
+        run: chmod +x gradlew
+
+      # 6️⃣ Temizle ve debug APK build et
+      - name: Clean and Build APK
+        run: ./gradlew clean assembleDebug --no-daemon
+
+      # 7️⃣ Üretilen APK dosyalarını listeler (kontrol için)
+      - name: List generated APKs
+        run: ls app/build/outputs/apk/debug/
+
+      # 8️⃣ Üretilen APK’yı yükle
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: FlorisBoard-debug
+          path: app/build/outputs/apk/debug/*.apk
+
+      # 9️⃣ Eğer build başarısız olursa raporları yükle
+      - name: Archive reports for failed job
+        if: ${{ failure() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: reports
+          path: '**/build/reports'
